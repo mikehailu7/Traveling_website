@@ -1,0 +1,62 @@
+.single-review {
+  border-bottom: 1px solid rgba($color: #000000, $alpha: 0.2);
+  padding-bottom: 1.5rem;
+  margin-bottom: 1rem;
+
+  .single-review-header {
+    display: flex;
+    align-items: center;
+    margin: 1 0;
+    padding: 0.8rem 0;
+
+    .user-avatar {
+      display: flex;
+    }
+
+    .rounded-circle {
+      border-radius: 50%;
+      max-width: 100%;
+      height: auto;
+      vertical-align: middle;
+    }
+    .user-title,
+    .user-rating {
+      margin: 0 1rem;
+    }
+    .user-rating {
+      margin-left: auto;
+    }
+    @media screen and (max-width: 540px) {
+      display: block;
+    }
+  }
+
+  .pro-cons {
+    li {
+      span {
+        font-weight: 400;
+        font-size: larger;
+        color: rgb(146, 59, 59);
+      }
+    }
+  }
+  p {
+    margin: 0.6rem 0;
+  }
+  .review-votes {
+    display: flex;
+    span {
+      margin-right: 1rem;
+    }
+    .up-vote {
+      color: green;
+      font-size: larger;
+      padding: 0 0.2rem;
+    }
+    .down-vote {
+      color: red;
+      font-size: larger;
+      padding: 0 0.2rem;
+    }
+  }
+}

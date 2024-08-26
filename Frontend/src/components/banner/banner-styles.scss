@@ -1,0 +1,47 @@
+.banner-container {
+  position: relative;
+  height: 48vh;
+
+
+  .banner-bg {
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+    .banner-img-f {
+      object-fit: contain;
+      height: 380px;
+      position: absolute;
+      top: 0px;
+      right: 6%;
+      border-radius: 5px;
+      animation: MoveUpDown 3s linear infinite;
+    }
+
+    .banner-img-b {
+      height: 380px;
+      width: 45%;
+      position: absolute;
+      right: 0;
+      top: 60px;
+      background-color: #9ccbe0;
+      z-index: -2;
+      border-radius: 4px;
+    }
+  }
+
+  @keyframes MoveUpDown {
+
+    0%,
+    100% {
+      transform: translate(1%, 1%);
+    }
+
+    50% {
+      transform: translate(-1%, -1%);
+    }
+  }
+}

@@ -1,0 +1,86 @@
+.login,
+.promo-banner {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  height: 18rem;
+  width: 100%;
+
+  .promo-image-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -3;
+    background-color: teal;
+    filter: brightness(0.8);
+    display: flex;
+
+    .promo-image {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+  .promo-banner-content {
+    padding: 2rem;
+    color: white;
+    height: 100%;
+    text-align: center;
+
+    .promo-banner-title,
+    .promo-banner-text {
+      color: inherit;
+      text-shadow: 2px 2px 2px rgba($color: #000000, $alpha: 0.5);
+    }
+  }
+}
+.btn-more {
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  display: inline-block;
+  padding: 0.5rem;
+  transition: all 0.3s linear;
+  font-weight: bold;
+
+  svg {
+    margin-left: 16px;
+    border: 2px solid black;
+    padding: 3px;
+    height: 30px;
+    width: 30px;
+    color: black;
+    border-radius: 100px;
+    transition: 0.3s ease-in-out;
+  }
+  &:hover {
+    border-bottom: 1px solid lightgray;
+    svg {
+      background: black;
+      color: white;
+    }
+  }
+}
+
+.wrapper-div {
+  margin: 0 auto;
+
+  @media screen and (max-width: 576px) {
+    max-width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  @media screen and (max-width: 768px) and (min-width: 576px) {
+    max-width: 96%;
+  }
+  @media screen and (max-width: 992px) and (min-width: 768px) {
+    max-width: 90%;
+  }
+  @media screen and (max-width: 1200px) and (min-width: 992px) {
+    max-width: 86%;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 74%;
+  }
+}

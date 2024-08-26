@@ -1,0 +1,8 @@
+const actionTypes = {
+  ADD_ITEMS: "ADD_ITEMS",
+  PURGE_CART_ITEM: "PURGE_CART_ITEM",
+  REMOVE_CART_ITEM: "REMOVE_CART_ITEM",
+  CLEAR_CART_ITEMS: "CLEAR_CART_ITEMS",
+};
+
+export default actionTypes;

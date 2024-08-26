@@ -1,0 +1,708 @@
+[
+    {
+        "isSold": false,
+        "isRented": false,
+        "price": 1691.85,
+        "imageCover": "19850bce-e2f8-5ad7-b317-dfbecf9a559e",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Ertale",
+        "description": "Dolor exercitation dolore minim duis elit fugiat Lorem eu velit adipisicing dolore culpa. Velit dolore excepteur minim do velit fugiat aliquip voluptate in laboris. Sunt adipisicing cupidatat veniam irure exercitation laborum dolore laborum consectetur cillum consectetur tempor. Ea sunt excepteur labore enim nisi.\r\n",
+        "location": {
+            "coordinates": [
+                7.835171,
+                39.311015
+            ]
+        },
+        "averageRating": 3,
+        "category": "Apartment",
+        "ratingQuantity": 476,
+        "totalLike": 1256
+    },
+    {
+        "isSold": true,
+        "isRented": false,
+        "price": 1518.89,
+        "imageCover": "19850bce-e2f8-5ad7-b317-dfbecf9a559e",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Hatfield Bailey",
+        "description": "Sit veniam duis anim aute fugiat esse incididunt ad nulla. Excepteur magna id adipisicing consectetur ad. Ad qui proident aliqua veniam nostrud ex incididunt irure ad veniam magna. Adipisicing consequat labore laboris consequat excepteur nostrud occaecat velit commodo et. Incididunt duis nisi proident aliquip exercitation sint culpa incididunt deserunt. Pariatur velit esse laboris dolore ut culpa exercitation. Ex irure ea nisi minim ad.\r\n",
+        "location": {
+            "coordinates": [
+                10.541604,
+                40.336810
+            ]
+        },
+        "averageRating": 5,
+        "category": "Apartment",
+        "ratingQuantity": 525,
+        "totalLike": 1549
+    },
+    {
+        "isSold": false,
+        "isRented": false,
+        "price": 2997.78,
+        "imageCover": "19850bce-e2f8-5ad7-b317-dfbecf9a559e",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Ericka Velez",
+        "description": "Fugiat labore dolor et commodo aliquip aute occaecat consequat sunt laboris. Consequat proident quis incididunt magna ipsum cillum eiusmod quis occaecat consequat. Magna elit incididunt deserunt et in labore eu labore sunt et deserunt anim pariatur enim. Ex do ea tempor officia amet voluptate excepteur proident ad.\r\n",
+        "location": {
+            "coordinates": [
+                10.298595,
+                38.702585
+            ]
+        },
+        "averageRating": 1,
+        "category": "Apartment",
+        "ratingQuantity": 110,
+        "totalLike": 1292,
+        "images": [
+            "http://placehold.it/32x32"
+        ]
+    },
+    {
+        "isSold": true,
+        "isRented": false,
+        "price": 3207.39,
+        "imageCover": "ceb80925-494d-5ce3-9c7f-e78aa62e03f4",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Munoz Wong",
+        "description": "Pariatur quis id duis aute laboris ea in commodo aliqua veniam nisi. Sint eu commodo pariatur velit velit ut fugiat mollit consectetur ea. Reprehenderit duis cillum amet dolore commodo ad veniam cillum culpa id. Eiusmod cupidatat officia magna et amet eu commodo elit ipsum fugiat anim Lorem sunt.\r\n",
+        "location": {
+            "coordinates": [
+                12.486893,
+                39.010357
+            ]
+        },
+        "averageRating": 5,
+        "category": "Apartment",
+        "ratingQuantity": 541,
+        "totalLike": 200
+    },
+    {
+        "isSold": true,
+        "isRented": false,
+        "price": 2775.48,
+        "imageCover": "ceb80925-494d-5ce3-9c7f-e78aa62e03f4",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Betty Cunningham",
+        "description": "Qui minim consequat laborum laboris culpa fugiat sunt ut. Do veniam ipsum enim in elit et reprehenderit laboris. Minim ipsum ut amet non amet sunt reprehenderit dolor tempor nostrud aute. Duis nostrud occaecat incididunt reprehenderit non culpa commodo. Culpa esse esse ipsum ea laboris aliqua laboris enim est cupidatat.\r\n",
+        "location": {
+            "coordinates": [
+                11.338328,
+                37.380455
+            ]
+        },
+        "averageRating": 5,
+        "category": "Apartment",
+        "ratingQuantity": 706,
+        "totalLike": 932
+    },
+    {
+        "isSold": false,
+        "isRented": false,
+        "price": 3830.66,
+        "imageCover": "05c1d812-319b-5786-95f9-f282e2ccb849",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Bonita Delgado",
+        "description": "Excepteur consectetur culpa anim labore ad pariatur laborum duis duis incididunt ex. Ex adipisicing reprehenderit velit ex esse enim duis in eiusmod exercitation commodo aute. Esse culpa ipsum pariatur veniam id exercitation deserunt exercitation. Occaecat esse enim et do aliquip magna ut sint officia ipsum tempor. Ipsum esse laborum id Lorem. Nisi id cupidatat esse dolor exercitation.\r\n",
+        "location": {
+            "coordinates": [
+                6.871621,
+                38.634016
+            ]
+        },
+        "averageRating": 1,
+        "category": "Apartment",
+        "ratingQuantity": 184,
+        "totalLike": 1766
+    },
+    {
+        "isSold": true,
+        "isRented": false,
+        "price": 1665.29,
+        "imageCover": "05c1d812-319b-5786-95f9-f282e2ccb849",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Lara Frye",
+        "description": "Adipisicing enim pariatur sint occaecat duis. Aliqua reprehenderit occaecat eu magna do est aute ipsum labore laborum veniam et aliqua. Elit ad laboris commodo duis. In est id do labore ipsum amet excepteur deserunt incididunt. Ullamco aliqua aliquip voluptate nisi tempor eiusmod. Quis in voluptate ad anim tempor enim occaecat velit sunt aliquip adipisicing ea officia.\r\n",
+        "location": {
+            "coordinates": [
+                7.182031,
+                40.209842
+            ]
+        },
+        "averageRating": 3,
+        "category": "Apartment",
+        "ratingQuantity": 744,
+        "totalLike": 89
+    },
+    {
+        "isSold": false,
+        "isRented": false,
+        "price": 3013.03,
+        "imageCover": "05c1d812-319b-5786-95f9-f282e2ccb849",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Rojas Jones",
+        "description": "Culpa qui labore incididunt mollit ut adipisicing fugiat tempor. Exercitation excepteur velit incididunt proident. Eu nisi veniam ut minim mollit. Excepteur veniam ut in proident reprehenderit eiusmod proident veniam nulla.\r\n",
+        "location": {
+            "coordinates": [
+                9.538332,
+                41.731537
+            ]
+        },
+        "averageRating": 5,
+        "category": "Apartment",
+        "ratingQuantity": 896,
+        "totalLike": 530
+    },
+    {
+        "isSold": false,
+        "isRented": false,
+        "price": 1337.41,
+        "imageCover": "05c1d812-319b-5786-95f9-f282e2ccb849",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Gonzalez Marks",
+        "description": "Est enim dolor veniam eu aute duis. Excepteur nostrud ullamco adipisicing eiusmod exercitation irure sit sit dolore enim. Labore eiusmod irure et ea eiusmod nostrud culpa voluptate. Proident id culpa irure exercitation incididunt et nulla ut anim officia ullamco aliqua. Duis ut aute exercitation aliqua eiusmod commodo proident proident velit velit.\r\n",
+        "location": {
+            "coordinates": [
+                9.567988,
+                39.608382
+            ]
+        },
+        "averageRating": 1,
+        "category": "Apartment",
+        "ratingQuantity": 888,
+        "totalLike": 29
+    },
+    {
+        "isSold": true,
+        "isRented": false,
+        "price": 3417.9,
+        "imageCover": "ceb80925-494d-5ce3-9c7f-e78aa62e03f4",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Concepcion Sykes",
+        "description": "Fugiat excepteur labore excepteur laborum exercitation. Minim dolore duis aliquip veniam fugiat officia consequat anim mollit excepteur aute enim. Nulla eu fugiat sunt est nostrud aliqua elit sunt et aute. Id esse Lorem ullamco id ad cupidatat sunt. Exercitation in cillum commodo esse sit veniam. Voluptate mollit consectetur ut aute excepteur proident et quis.\r\n",
+        "location": {
+            "coordinates": [
+                9.093187,
+                39.650484
+            ]
+        },
+        "averageRating": 2,
+        "category": "Apartment",
+        "ratingQuantity": 880,
+        "totalLike": 1639
+    },
+    {
+        "isSold": false,
+        "isRented": false,
+        "price": 2372.78,
+        "imageCover": "1d429c42-a689-52af-9567-46cbeff42313",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Fernandez Huff",
+        "description": "Fugiat officia quis in velit nostrud cupidatat aliquip ipsum aliqua anim consectetur. Consectetur in qui nulla officia. Ex anim anim velit est sit dolor qui. Veniam occaecat irure cillum minim dolore. Non ex est irure voluptate et anim aliqua ex pariatur. Ut aute officia quis reprehenderit amet est.\r\n",
+        "location": {
+            "coordinates": [
+                8.260788,
+                37.822044
+            ]
+        },
+        "averageRating": 3,
+        "category": "House",
+        "ratingQuantity": 74,
+        "totalLike": 446
+    },
+    {
+        "isSold": false,
+        "isRented": false,
+        "price": 1874.98,
+        "imageCover": "2e94d86b-92ff-5fe0-a516-0af4c41f36ea",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Luna Owen",
+        "description": "Dolor excepteur ullamco sint duis est minim elit ullamco. Ea pariatur irure non sunt non in amet Lorem. Ullamco aute minim ipsum eu exercitation ea. Labore non tempor ut do quis non ea voluptate incididunt. Laborum duis fugiat eu exercitation laboris magna est tempor nulla minim. Ullamco nisi minim Lorem ex ex.\r\n",
+        "location": {
+            "coordinates": [
+                8.689109,
+                39.175330
+            ]
+        },
+        "averageRating": 1,
+        "category": "House",
+        "ratingQuantity": 679,
+        "totalLike": 900
+    },
+    {
+        "isSold": true,
+        "isRented": false,
+        "price": 1283.93,
+        "imageCover": "2e94d86b-92ff-5fe0-a516-0af4c41f36ea",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Montgomery Greene",
+        "description": "Ipsum tempor deserunt minim elit ullamco est ipsum. Consectetur cillum ut consectetur ullamco aute veniam magna cupidatat magna id ea proident proident quis. Cupidatat cillum ut ea laborum est cupidatat est sunt mollit cillum. Est ipsum nisi exercitation commodo veniam nostrud labore est labore laborum irure commodo aute. Exercitation eu veniam sint aliqua ex elit sunt ipsum ad amet eiusmod qui sunt. Lorem non aute amet ea commodo sint est velit sit exercitation. Excepteur aute tempor irure sint et consectetur adipisicing nostrud do ad ad laborum.\r\n",
+        "location": {
+            "coordinates": [
+                9.140696,
+                36.709342
+            ]
+        },
+        "averageRating": 2,
+        "category": "House",
+        "ratingQuantity": 268,
+        "totalLike": 1441
+    },
+    {
+        "isSold": false,
+        "isRented": false,
+        "price": 1405.85,
+        "imageCover": "2e94d86b-92ff-5fe0-a516-0af4c41f36ea",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "lalibela",
+        "description": "Lalibela is a UNESCO World Heritage Site and continues to be a major pilgrimage destination, especially during religious holidays like Ethiopian Christmas (Genna). The architecture and artistry of these churches reflect a blend of Axumite, Byzantine, and Coptic influences, making them a testament to the rich historical and religious heritage of Ethiopia..\r\n",
+        "location": {
+            "coordinates": [
+                8.242931,
+                35.632727
+            ]
+        },
+        "averageRating": 1,
+        "category": "House",
+        "ratingQuantity": 978,
+        "totalLike": 472
+    },
+    {
+        "isSold": true,
+        "isRented": false,
+        "price": 2189.84,
+        "imageCover": "2e94d86b-92ff-5fe0-a516-0af4c41f36ea",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Addis-Ababa",
+        "description": "Addis Ababa is the capital and largest city of Ethiopia, known for its rich history, vibrant culture, and stunning natural beauty. Nestled on a plateau at a high altitude, the city boasts a pleasant climate and panoramic views.\r\n",
+        "location": {
+            "coordinates": [
+                13.803620,
+                39.345926
+            ]
+        },
+        "averageRating": 5,
+        "category": "House",
+        "ratingQuantity": 249,
+        "totalLike": 999
+    },
+    {
+        "isSold": true,
+        "isRented": false,
+        "price": 2214.58,
+        "imageCover": "2e94d86b-92ff-5fe0-a516-0af4c41f36ea",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Ertale",
+        "description": "Ertale is a shield volcano located in the Afar Region of Ethiopia. It is known for its unique geological features, including its persistently active lava lake, which is one of only a few in the world. The volcano's summit is a caldera, a large, circular depression formed by volcanic activity.\r\n",
+        "location": {
+            "coordinates": [
+                31.48749,
+                -84.486005
+            ]
+        },
+        "averageRating": 3,
+        "category": "House",
+        "ratingQuantity": 149,
+        "totalLike": 918
+    },
+    {
+        "isSold": true,
+        "isRented": false,
+        "price": 3874.27,
+        "imageCover": "2e94d86b-92ff-5fe0-a516-0af4c41f36ea",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Semen Mountains",
+        "description": "Semen Mountains are a mountain range located in the northern part of Ethiopia. They are known for their rugged terrain, deep gorges, and diverse ecosystems. The mountains are home to a variety of wildlife, including endangered species like the Ethiopian wolf and walia ibex. The area is also rich in cultural heritage, with ancient churches and monasteries nestled among the peaks.\r\n",
+        "location": {
+            "coordinates": [
+                -38.764339,
+                -31.898222
+            ]
+        },
+        "averageRating": 2,
+        "category": "House",
+        "ratingQuantity": 174,
+        "totalLike": 1586
+    },
+    {
+        "isSold": true,
+        "isRented": false,
+        "price": 3003.52,
+        "imageCover": "2e94d86b-92ff-5fe0-a516-0af4c41f36ea",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Elba Russell",
+        "description": "Ex non culpa mollit laboris ipsum qui quis pariatur voluptate aliqua magna. Adipisicing ut labore officia anim aute enim ipsum esse eu Lorem elit. Incididunt consectetur voluptate aliqua nisi quis proident amet. In aliquip magna eiusmod anim veniam ullamco consectetur culpa non sint non est laboris.\r\n",
+        "location": {
+            "coordinates": [
+                67.585575,
+                -105.670185
+            ]
+        },
+        "averageRating": 3,
+        "category": "House",
+        "ratingQuantity": 166,
+        "totalLike": 1741
+    },
+    {
+        "isSold": false,
+        "isRented": false,
+        "price": 2788.73,
+        "imageCover": "2e94d86b-92ff-5fe0-a516-0af4c41f36ea",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Sherman Guy",
+        "description": "Id aliqua occaecat excepteur veniam do. Ipsum qui deserunt Lorem eiusmod eiusmod fugiat do labore. Quis deserunt aliquip reprehenderit Lorem ad nisi proident cupidatat velit consectetur enim occaecat ex cillum. Proident sit sit esse nulla enim laborum officia amet quis non. Laboris quis exercitation ipsum qui in officia culpa. Voluptate incididunt dolor nulla nisi culpa officia nulla occaecat occaecat. Ea tempor dolore anim incididunt do quis labore pariatur excepteur irure ipsum.\r\n",
+        "location": {
+            "coordinates": [
+                68.971288,
+                11.048166
+            ]
+        },
+        "averageRating": 2,
+        "category": "House",
+        "ratingQuantity": 415,
+        "totalLike": 1979
+    },
+    {
+        "isSold": true,
+        "isRented": false,
+        "price": 2013.94,
+        "imageCover": "2e94d86b-92ff-5fe0-a516-0af4c41f36ea",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Charity Stanton",
+        "description": "Consectetur nostrud commodo quis cillum ad ea id ad dolore incididunt. Do qui elit officia eiusmod velit. Lorem eiusmod amet tempor eiusmod nostrud. Quis enim aute aute commodo consequat sit cillum qui laboris sunt duis aute velit adipisicing. Esse ullamco consectetur occaecat ad fugiat sit sit consectetur laborum esse excepteur do eiusmod. Dolor ex id nisi exercitation culpa est.\r\n",
+        "location": {
+            "coordinates": [
+                -89.733791,
+                -53.503752
+            ]
+        },
+        "averageRating": 1,
+        "category": "House",
+        "ratingQuantity": 79,
+        "totalLike": 124
+    },
+    {
+        "isSold": true,
+        "isRented": false,
+        "price": 2952.77,
+        "imageCover": "2e94d86b-92ff-5fe0-a516-0af4c41f36ea",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Bridgett Estrada",
+        "description": "In qui sit labore sint dolor commodo qui qui nisi ut. Lorem nulla ullamco ullamco nulla. Veniam ullamco consequat nostrud duis nostrud. Et irure non cillum aute nostrud officia Lorem id voluptate adipisicing pariatur. Fugiat aliquip culpa cupidatat enim voluptate in dolor nulla. Aliquip consequat ut elit proident dolore eu. Eiusmod quis deserunt sint consectetur excepteur nulla eu officia sunt labore.\r\n",
+        "location": {
+            "coordinates": [
+                87.030463,
+                50.554181
+            ]
+        },
+        "averageRating": 3,
+        "category": "House",
+        "ratingQuantity": 680,
+        "totalLike": 1826
+    },
+    {
+        "isSold": false,
+        "isRented": false,
+        "price": 1343.1,
+        "imageCover": "2e94d86b-92ff-5fe0-a516-0af4c41f36ea",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Jordan Mendoza",
+        "description": "Quis aliqua officia est pariatur proident nulla sint dolore. Ex quis esse in irure exercitation. In deserunt ullamco culpa labore tempor nisi in amet exercitation occaecat do nulla.\r\n",
+        "location": {
+            "coordinates": [
+                79.877997,
+                -117.933582
+            ]
+        },
+        "averageRating": 2,
+        "category": "House",
+        "ratingQuantity": 788,
+        "totalLike": 1676
+    },
+    {
+        "isSold": false,
+        "isRented": false,
+        "price": 1322.31,
+        "imageCover": "2e94d86b-92ff-5fe0-a516-0af4c41f36ea",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Garza Boyer",
+        "description": "Excepteur laborum mollit ullamco ipsum ut. Commodo minim ex anim dolor reprehenderit elit magna deserunt cupidatat minim. Aliqua aliquip cillum nisi culpa excepteur consequat esse minim eiusmod est irure tempor. Magna adipisicing labore do do Lorem duis sint voluptate adipisicing reprehenderit. Aliquip non dolor id incididunt cillum voluptate aliquip exercitation ex sunt cillum voluptate reprehenderit Lorem. Occaecat laborum velit ad ipsum.\r\n",
+        "location": {
+            "coordinates": [
+                -77.808125,
+                61.527351
+            ]
+        },
+        "averageRating": 1,
+        "category": "House",
+        "ratingQuantity": 101,
+        "totalLike": 53
+    },
+    {
+        "isSold": true,
+        "isRented": false,
+        "price": 1840.48,
+        "imageCover": "2e94d86b-92ff-5fe0-a516-0af4c41f36ea",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Evans Barlow",
+        "description": "Reprehenderit ad ad aute occaecat. Culpa anim culpa fugiat sint reprehenderit anim consectetur. Ea eu sit amet velit aliqua commodo nisi. Nostrud ad veniam aute proident consequat deserunt minim. Eu ad irure consequat sunt pariatur laboris non eiusmod dolor quis laboris aliqua cillum. Adipisicing labore do sunt do sint ipsum elit aliqua amet nulla elit ullamco. Cillum voluptate sit irure Lorem cupidatat aute velit irure.\r\n",
+        "location": {
+            "coordinates": [
+                -50.682759,
+                -179.179215
+            ]
+        },
+        "averageRating": 5,
+        "category": "House",
+        "ratingQuantity": 567,
+        "totalLike": 792
+    },
+    {
+        "isSold": false,
+        "isRented": false,
+        "price": 1812.18,
+        "imageCover": "3e0ea637-10c9-5674-87a4-3be669ee3aff",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Chaney Savage",
+        "description": "Dolor sit labore qui Lorem deserunt consectetur ex cillum aliquip ea officia eu. Elit elit voluptate deserunt eu fugiat aliquip excepteur voluptate proident nisi adipisicing fugiat nisi. Commodo laborum labore occaecat sunt. Commodo cillum amet occaecat pariatur ullamco. Ipsum qui ea enim id Lorem ut reprehenderit ipsum ad. Sint incididunt consequat officia consectetur cillum.\r\n",
+        "location": {
+            "coordinates": [
+                60.553936,
+                37.617029
+            ]
+        },
+        "averageRating": 1,
+        "category": "Guest House",
+        "ratingQuantity": 447,
+        "totalLike": 1192
+    },
+    {
+        "isSold": false,
+        "isRented": false,
+        "price": 1542.29,
+        "imageCover": "3e0ea637-10c9-5674-87a4-3be669ee3aff",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Mia Gibbs",
+        "description": "Aute dolore aute eiusmod esse aliqua duis amet labore culpa amet culpa et minim. In nisi eu cupidatat labore exercitation eiusmod voluptate voluptate elit est magna incididunt reprehenderit. Nisi aliquip irure ex mollit occaecat cillum Lorem amet nostrud anim aliqua. Dolore fugiat non aute dolor do aliquip. Occaecat duis anim amet exercitation velit sunt quis labore sunt dolore. Nostrud elit eu esse ipsum voluptate reprehenderit nostrud ipsum irure sunt. Veniam labore consectetur aliquip laborum pariatur non adipisicing.\r\n",
+        "location": {
+            "coordinates": [
+                -0.83016,
+                76.550837
+            ]
+        },
+        "averageRating": 5,
+        "category": "Guest House",
+        "ratingQuantity": 440,
+        "totalLike": 1963
+    },
+    {
+        "isSold": false,
+        "isRented": false,
+        "price": 1502.33,
+        "imageCover": "3e0ea637-10c9-5674-87a4-3be669ee3aff",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Valentine Heath",
+        "description": "Laboris anim reprehenderit sint amet consequat fugiat aliquip ipsum. Reprehenderit voluptate occaecat eiusmod commodo excepteur deserunt esse labore laborum tempor nostrud fugiat sint ipsum. Magna excepteur veniam est in est. Proident non ullamco sint proident adipisicing id nulla laboris fugiat. Commodo elit id exercitation qui deserunt fugiat enim laboris esse ullamco dolore do ut ut.\r\n",
+        "location": {
+            "coordinates": [
+                -5.18537,
+                -74.942455
+            ]
+        },
+        "averageRating": 3,
+        "category": "Guest House",
+        "ratingQuantity": 539,
+        "totalLike": 1795
+    },
+    {
+        "isSold": false,
+        "isRented": false,
+        "price": 2433.25,
+        "imageCover": "3e0ea637-10c9-5674-87a4-3be669ee3aff",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Carissa Riley",
+        "description": "Aliquip occaecat id sunt eu magna velit consequat eu eu laboris sunt ullamco veniam. Excepteur tempor in incididunt eu. Quis officia occaecat eu irure ullamco incididunt mollit elit proident officia sunt. Tempor voluptate nisi eiusmod fugiat dolor deserunt sit ut nostrud labore. Excepteur qui nostrud sunt ut exercitation nostrud deserunt commodo excepteur ullamco adipisicing cillum. Ullamco non aute quis occaecat magna sit aliqua mollit.\r\n",
+        "location": {
+            "coordinates": [
+                -1.12696,
+                -59.326751
+            ]
+        },
+        "averageRating": 5,
+        "category": "Guest House",
+        "ratingQuantity": 917,
+        "totalLike": 661
+    },
+    {
+        "isSold": true,
+        "isRented": false,
+        "price": 2980.93,
+        "imageCover": "3e0ea637-10c9-5674-87a4-3be669ee3aff",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Jefferson Ball",
+        "description": "Excepteur excepteur laboris amet tempor ea excepteur non et elit. Minim id ut Lorem non. Mollit aliquip consectetur ad quis. Pariatur ipsum Lorem proident consequat amet aliqua excepteur culpa velit ex ut enim laborum elit. Culpa minim deserunt occaecat velit adipisicing exercitation do irure laborum duis amet aliqua id ullamco. Adipisicing deserunt eu voluptate non voluptate esse sunt sint qui occaecat dolor eu excepteur. Aute deserunt magna qui anim cillum.\r\n",
+        "location": {
+            "coordinates": [
+                10.030576,
+                26.416936
+            ]
+        },
+        "averageRating": 3,
+        "category": "Guest House",
+        "ratingQuantity": 74,
+        "totalLike": 1754
+    },
+    {
+        "isSold": true,
+        "isRented": false,
+        "price": 1311.8,
+        "imageCover": "3e0ea637-10c9-5674-87a4-3be669ee3aff",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Hall Shields",
+        "description": "Nostrud cupidatat cillum eiusmod nostrud consectetur est cillum ex aute do in. Occaecat cillum ullamco enim ex. Dolor nulla fugiat eiusmod est in tempor cillum excepteur. Non cupidatat id dolor voluptate id. Minim id incididunt nulla sunt velit dolore. Sit amet duis duis magna esse eiusmod proident est aliquip aute laborum ex.\r\n",
+        "location": {
+            "coordinates": [
+                88.528413,
+                123.905109
+            ]
+        },
+        "averageRating": 5,
+        "category": "Guest House",
+        "ratingQuantity": 609,
+        "totalLike": 1802
+    },
+    {
+        "isSold": true,
+        "isRented": false,
+        "price": 3534.17,
+        "imageCover": "3e0ea637-10c9-5674-87a4-3be669ee3aff",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Barbra Ramirez",
+        "description": "Ut exercitation occaecat enim veniam veniam labore. Pariatur esse commodo dolor fugiat irure sint. Aliqua nisi qui cillum ut excepteur eiusmod commodo. Sit ipsum ea Lorem exercitation exercitation duis irure magna. Adipisicing cillum excepteur ipsum nisi fugiat eiusmod sint tempor ipsum laborum. Adipisicing tempor sit adipisicing in. Qui velit enim amet in aliqua mollit aute commodo fugiat labore nostrud adipisicing quis.\r\n",
+        "location": {
+            "coordinates": [
+                9.963427,
+                -90.453728
+            ]
+        },
+        "averageRating": 2,
+        "category": "Guest House",
+        "ratingQuantity": 687,
+        "totalLike": 724
+    },
+    {
+        "isSold": true,
+        "isRented": false,
+        "price": 2405.45,
+        "imageCover": "3e0ea637-10c9-5674-87a4-3be669ee3aff",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Mason David",
+        "description": "Aliquip do adipisicing occaecat exercitation id nostrud nulla occaecat mollit anim sit aliquip voluptate. Ullamco Lorem voluptate laboris Lorem occaecat culpa laboris minim consectetur anim cupidatat dolore reprehenderit laborum. Culpa aliqua duis minim anim laborum cupidatat anim. Cupidatat nulla cupidatat nostrud exercitation consectetur culpa sunt duis magna. Consequat minim tempor est quis sunt ex ea elit Lorem do mollit. Adipisicing dolor cupidatat aliqua sint cupidatat sunt tempor.\r\n",
+        "location": {
+            "coordinates": [
+                23.307445,
+                22.331075
+            ]
+        },
+        "averageRating": 2,
+        "category": "Guest House",
+        "ratingQuantity": 170,
+        "totalLike": 637
+    },
+    {
+        "isSold": false,
+        "isRented": false,
+        "price": 2448.09,
+        "imageCover": "479de616-074c-5ccd-a9f7-65ca224492cb",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Goff Boone",
+        "description": "Dolore cupidatat aliquip esse irure eiusmod cillum mollit do nisi culpa mollit quis. Cillum ea exercitation laborum in tempor dolor exercitation adipisicing nulla ad sint cillum velit. Anim Lorem cillum nisi aliqua tempor laborum non eiusmod in proident mollit eu. Do ut tempor culpa sit non Lorem eu quis Lorem velit cillum. Cupidatat cupidatat officia dolore eiusmod laboris ullamco enim sit occaecat est. Pariatur enim mollit dolore pariatur anim.\r\n",
+        "location": {
+            "coordinates": [
+                -51.825624,
+                -144.315797
+            ]
+        },
+        "averageRating": 2,
+        "category": "Condo",
+        "ratingQuantity": 593,
+        "totalLike": 162
+    },
+    {
+        "isSold": false,
+        "isRented": false,
+        "price": 3005.32,
+        "imageCover": "914f8410-a0ad-5a58-83eb-96cd706c4a90",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Gladys Keller",
+        "description": "Ex in velit dolor duis excepteur velit eu est aute excepteur enim. Deserunt adipisicing enim sint sunt mollit exercitation. Velit proident voluptate ea esse in tempor sint qui deserunt exercitation. Deserunt elit qui magna ut dolore laboris sint nostrud consequat non esse pariatur. Aliqua Lorem laborum ullamco id cillum elit nisi in. Veniam anim sunt do id deserunt esse amet exercitation non minim culpa.\r\n",
+        "location": {
+            "coordinates": [
+                -16.733833,
+                -51.663719
+            ]
+        },
+        "averageRating": 5,
+        "category": "Condo",
+        "ratingQuantity": 624,
+        "totalLike": 290
+    },
+    {
+        "isSold": true,
+        "isRented": false,
+        "price": 1307.84,
+        "imageCover": "914f8410-a0ad-5a58-83eb-96cd706c4a90",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Dunn Davenport",
+        "description": "Aute ex do in enim. Excepteur irure et sit duis velit mollit cupidatat occaecat nostrud eu quis et. Cillum anim fugiat qui consequat qui cupidatat consequat commodo elit laborum amet id pariatur excepteur. Non sunt reprehenderit aute minim exercitation. Tempor cupidatat reprehenderit duis sint proident esse cupidatat. Occaecat aute excepteur adipisicing minim veniam aute elit.\r\n",
+        "location": {
+            "coordinates": [
+                37.88927,
+                -10.863178
+            ]
+        },
+        "averageRating": 2,
+        "category": "Condo",
+        "ratingQuantity": 957,
+        "totalLike": 777
+    },
+    {
+        "isSold": true,
+        "isRented": false,
+        "price": 1380.43,
+        "imageCover": "ceb80925-494d-5ce3-9c7f-e78aa62e03f4",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Isabella Mullins",
+        "description": "Aute sit anim nisi velit officia eiusmod cillum labore nulla proident. Ex ipsum ex labore enim amet est cupidatat commodo nulla incididunt amet ut aute. Exercitation excepteur exercitation fugiat mollit ex non cillum adipisicing sint. Irure anim irure adipisicing incididunt irure.\r\n",
+        "location": {
+            "coordinates": [
+                -85.712822,
+                119.515945
+            ]
+        },
+        "averageRating": 2,
+        "category": "Condo",
+        "ratingQuantity": 806,
+        "totalLike": 1080
+    },
+    {
+        "isSold": false,
+        "isRented": false,
+        "price": 3823.41,
+        "imageCover": "ceb80925-494d-5ce3-9c7f-e78aa62e03f4",
+        "postedBy": "667fc64725e1964fec77af42",
+        "title": "Huber Reid",
+        "description": "Veniam veniam ipsum ex nulla ex consectetur consectetur occaecat fugiat. Anim consequat eu esse ex. Ullamco sint magna amet ad fugiat ipsum tempor laborum occaecat. Esse est commodo officia ex ea nostrud consequat ex nisi et et.\r\n",
+        "location": {
+            "coordinates": [
+                86.986849,
+                64.243935
+            ]
+        },
+        "averageRating": 5,
+        "category": "Luxury House",
+        "ratingQuantity": 852,
+        "totalLike": 994
+    }
+]

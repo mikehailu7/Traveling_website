@@ -1,0 +1,43 @@
+.profile-header {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-bottom: 3rem;
+
+  .profile-cover {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.6);
+  }
+  .profile-avatar {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      color: white;
+      text-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+  }
+}
+.card-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .delete-wishlist {
+    height: 100%;
+    width: 40px;
+    background-color: rgba(99, 99, 99, 0.2);
+  }
+}
