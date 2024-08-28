@@ -44,7 +44,7 @@ export default function CategoryDetail() {
       <div className='category-header'>
         <Spin spinning={isFetching}>
           <HeaderTitle className='display-6' widthWrap={30}>
-            {categoryId} Houses
+            {categoryId} 
           </HeaderTitle>
         </Spin>
       </div>

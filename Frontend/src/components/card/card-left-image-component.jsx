@@ -5,7 +5,7 @@ import {
   addItemAction,
   purgeWishItem,
 } from "../../redux/wishlist/wishlistAction.creators";
-import livingRoom from "../../assets/alxtravel.png";
+import Alxtravel from "../../assets/alxtravel.png";
 import MapModal from "../mapModal/map-component";
 import { Row, Col, Image, Stat, Button } from "../../antd-imports";
 import { StarRatingComponent } from "../styled-reusable/styled-reusable";
@@ -53,7 +53,7 @@ export const HorizontalCard = ({
           <div className='image-container'>
             <Image
               className='card-image'
-              src={imageCover ? `${IMAGE_SERVER_URL}/${imageCover}` : livingRoom}
+              src={imageCover ? `${IMAGE_SERVER_URL}/${imageCover}` : Alxtravel}
               alt='place'
             />
           </div>

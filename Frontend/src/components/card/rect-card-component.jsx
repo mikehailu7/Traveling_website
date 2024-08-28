@@ -1,19 +1,19 @@
 import React from "react";
 import "./card-styles.scss";
-import APARTMENT from "../../assets/house/house2.jpg";
-import GUEST from "../../assets/house/house4.jpg";
-import HOUSE from "../../assets/house/house3.jpg";
-import LEXHOUSE from "../../assets/house/house5.jpg";
-import CONDO from "../../assets/house/house6.jpg";
+import CAPITALS from "../../assets/place/paris.jpg";
+import AFRICA from "../../assets/place/addis.jpg";
+import BEACHES from "../../assets/place/beaches.jpg";
+import RIVERS from "../../assets/place/abay.jpg";
+import TOP_VISITED from "../../assets/place/Top.jpg";
 
 export default function RectCardComponent({ hoverText, image, onClick }) {
-  if (hoverText === "APARTMENT") {
+  if (hoverText === "CAPITALS") {
     return (
       <div className='rect-card' onClick={onClick}>
         <div
           className='card-rect-item'
           style={{
-            backgroundImage: `url(${APARTMENT})`
+            backgroundImage: `url(${CAPITALS})`
           }}>
 
         </div>
@@ -21,30 +21,14 @@ export default function RectCardComponent({ hoverText, image, onClick }) {
       </div>
     );
   }
-  else if (hoverText === "GUEST HOUSE") {
+  else if (hoverText === "AFRICA") {
 
     return (
       <div className='rect-card' onClick={onClick}>
         <div
           className='card-rect-item'
           style={{
-            backgroundImage: `url(${GUEST})`
-          }}>
-
-        </div>
-        <h2 className='card-image-caption'>{hoverText}</h2>
-      </div>
-    );
-
-  }
-  else if (hoverText === "HOUSE") {
-
-    return (
-      <div className='rect-card' onClick={onClick}>
-        <div
-          className='card-rect-item'
-          style={{
-            backgroundImage: `url(${HOUSE})`
+            backgroundImage: `url(${AFRICA})`
           }}>
 
         </div>
@@ -53,14 +37,14 @@ export default function RectCardComponent({ hoverText, image, onClick }) {
     );
 
   }
-  else if (hoverText === "LUXURY HOUSE") {
+  else if (hoverText === "BEACHES") {
 
     return (
       <div className='rect-card' onClick={onClick}>
         <div
           className='card-rect-item'
           style={{
-            backgroundImage: `url(${LEXHOUSE})`
+            backgroundImage: `url(${BEACHES})`
           }}>
 
         </div>
@@ -69,14 +53,30 @@ export default function RectCardComponent({ hoverText, image, onClick }) {
     );
 
   }
-  else if (hoverText === "CONDO") {
+  else if (hoverText === "RIVERS") {
 
     return (
       <div className='rect-card' onClick={onClick}>
         <div
           className='card-rect-item'
           style={{
-            backgroundImage: `url(${CONDO})`
+            backgroundImage: `url(${RIVERS})`
+          }}>
+
+        </div>
+        <h2 className='card-image-caption'>{hoverText}</h2>
+      </div>
+    );
+
+  }
+  else if (hoverText === "TOP_VISITED") {
+
+    return (
+      <div className='rect-card' onClick={onClick}>
+        <div
+          className='card-rect-item'
+          style={{
+            backgroundImage: `url(${TOP_VISITED})`
           }}>
 
         </div>
