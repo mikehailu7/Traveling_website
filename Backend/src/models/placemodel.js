@@ -84,7 +84,7 @@ houseSchema.virtual("reviews", {
 });
 
 // fetch associated users on house query
-houseSchema.pre(/^find/, function (next) {
+placeSchema.pre(/^find/, function (next) {
   this.populate({
     path: "postedBy",
     select: "firstname lastname email phone soldItems avatar",
@@ -93,6 +93,6 @@ houseSchema.pre(/^find/, function (next) {
   next();
 });
 
-const House = model("House", houseSchema);
+const place = model("place", placeSchema);
 
-module.exports = House;
+module.exports = place;

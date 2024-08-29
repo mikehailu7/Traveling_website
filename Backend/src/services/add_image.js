@@ -1,6 +1,6 @@
 const uuid = require('uuid');
 const catchAsync = require("../utils/catchAsyncError");
-const House_images = require("../models/imageModel");
+const House_images = require("../models/imgmodel");
 
 
 exports.createOne = async (file) => {

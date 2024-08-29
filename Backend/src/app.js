@@ -1,7 +1,9 @@
 const express = require("express");
 const monogoSanitize = require("express-mongo-sanitize");
 const cors = require("cors");
-// const morgan = require("morgan");
+const userRouter = require("./routes/usersRoute");
+
+const imageRouter = require("./routes/imageRoute");
 const http = require("http");
 const socket = require("socket.io");
 const { isDev } = require('./utils/environment');
@@ -11,18 +13,16 @@ const xssClean = require("xss-clean");
 const hpp = require("hpp");
 const cookieParser = require("cookie-parser");
 
-// m global error handler
+
 const AppError = require("./utils/appError");
 const globalErrorHandler = require("./middlewares/errorHandler");
 
-//import routes
-const userRouter = require("./routes/usersRoute");
 const authRouter = require("./routes/authRoute");
 const houseRouter = require("./routes/houseRoute");
 const reviewRouter = require("./routes/reviewRoute");
-const imageRouter = require("./routes/imageRoute");
 
-// instantiate express app
+
+
 const app = express();
 
 const server = http.createServer(app);
