@@ -1,6 +1,6 @@
 const fs = require("fs");
 var path = require("path");
-const House_images = require("../../models/imageModel");
+const House_images = require("../../models/imgmodel");
 const House = require("../../models/houseModel");
 const AppError = require("../../utils/appError");
 const catchAsync = require("../../utils/catchAsyncError");

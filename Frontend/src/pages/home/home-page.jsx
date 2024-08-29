@@ -1,7 +1,7 @@
-import Header from "../../components/header/header-component";
+import Header from "../../components/header/h-component";
 import Footer from "../../components/footer/footer-component";
 import Banner from "../../components/banner/banner-component";
-import Trending from "../../components/trending-section/trending-component";
+import Trending from "../../components/trending/trending-component";
 import Category from "../../components/category/category-component";
 import CollectionPreview from "../../components/collectionPreview/collection-preview";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -10,7 +10,7 @@ import Alxtravel from "../../assets/alxtravel.png";
 import {
   PromoCard,
   Container,
-} from "../../components/styled-reusable/styled-reusable";
+} from "../../components/reusable/styled-reusable";
 
 import "./home-styles.scss";
 

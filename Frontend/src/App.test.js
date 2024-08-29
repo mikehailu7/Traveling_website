@@ -1,3 +1,4 @@
+// Author: mikias hailu and yared tsgie
 import { render, screen } from '@testing-library/react';
 import App from './App';
 

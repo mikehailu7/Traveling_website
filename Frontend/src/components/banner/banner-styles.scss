@@ -1,17 +1,5 @@
-.banner-container {
-  position: relative;
-  height: 48vh;
-
-
-  .banner-bg {
-    top: 0;
-    left: 0;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-
-    .banner-img-f {
+// banner css
+.banner-img-f {
       object-fit: contain;
       height: 380px;
       position: absolute;
@@ -20,8 +8,12 @@
       border-radius: 5px;
       animation: MoveUpDown 3s linear infinite;
     }
+.banner-container {
+  position: relative;
+  height: 48vh;
 
-    .banner-img-b {
+
+  .banner-img-b {
       height: 380px;
       width: 45%;
       position: absolute;
@@ -31,6 +23,16 @@
       z-index: -2;
       border-radius: 4px;
     }
+  .banner-bg {
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+    
+
   }
 
   @keyframes MoveUpDown {

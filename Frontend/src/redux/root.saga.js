@@ -1,8 +1,8 @@
 import { all, call } from "redux-saga/effects";
 
-import userSagas from "./user/user.sagas";
-import houseSagas from "./house/house.sagas";
-import wishlistSaga from "./wishlist/wishlist.sagas";
+import userSagas from "./customer/customer.sagas";
+import houseSagas from "./place/place.sagas";
+import wishlistSaga from "./wishlist/wil.sagas";
 
 export default function* rootSaga() {
   yield all([call(userSagas), call(houseSagas), call(wishlistSaga)]);

@@ -2,11 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./banner-styles.scss";
 import AlxTravel from "../../assets/alxtravel.png";
-import { HeaderTitle } from "../styled-reusable/styled-reusable";
+import { HeaderTitle } from "../reusable/styled-reusable";
 
 export default function BannerComponent() {
   return (
     <section>
+      {/* the fist section  */}
       <div className='my-5 banner-container'>
         <div className='d-flex flex-column'>
           <HeaderTitle className='display-3 header-title-1'>

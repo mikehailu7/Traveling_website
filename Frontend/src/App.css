@@ -1,9 +1,12 @@
+
+/* //Author:mikias hailu and yared ::view-transition-image-pair */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
 body {
   background-color: #f8f8f8;
+
+  margin: 0;
+  padding: 0;
   height: 100%;
   overflow-x: hidden;
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }

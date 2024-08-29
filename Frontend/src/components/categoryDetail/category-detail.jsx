@@ -2,15 +2,15 @@
 import React, { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
-import { onCategoryHouseFetchStart } from "../../redux/house/houseAction.creators";
+import { onCategoryHouseFetchStart } from "../../redux/place/place.creators";
 import {
   HeaderTitle,
   Container,
   ListConfig,
-} from "../styled-reusable/styled-reusable";
-import { Row, Col, Pagination } from "../../antd-imports";
+} from "../reusable/styled-reusable";
+import { Row, Col, Pagination } from "../../ad-imports";
 import CardItem from "../card/card-component";
-import { Spin } from "../../antd-imports";
+import { Spin } from "../../ad-imports";
 import "./category-styles.scss";
 
 export default function CategoryDetail() {

@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
-import { addItemAction } from "../../redux/wishlist/wishlistAction.creators";
-import {
-  StarRating,
-  BlurPlaceholder,
-} from "../styled-reusable/styled-reusable";
+import { addItemAction } from "../../redux/wishlist/wistAc.creators";
+import "antd/dist/antd.css";
+import { IMAGE_SERVER_URL } from "../../URL";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import MapModal from "../mapModal/map-component";
+import MapModal from "../map/map-component";
 import {
   faLocationArrow,
   faHeart,
@@ -15,9 +13,11 @@ import {
   faCartPlus,
 } from "@fortawesome/free-solid-svg-icons";
 import "./card-styles.scss";
-import { Card, Skeleton, Chip, Avatar } from "../../antd-imports";
-import "antd/dist/antd.css";
-import { IMAGE_SERVER_URL } from "../../URL";
+import { Card, Skeleton, Chip, Avatar } from "../../ad-imports";
+import {
+  StarRating,
+  BlurPlaceholder,
+} from "../reusable/styled-reusable";
 
 
 const { Meta } = Card;
@@ -47,6 +47,7 @@ const CardComponent = ({ isLoading, item }) => {
 
     return (
       <div className='custom-card'>
+        {/* map model */}
         <MapModal
           show={mapShow}
           handleOk={() => setMapShow(false)}
@@ -54,12 +55,14 @@ const CardComponent = ({ isLoading, item }) => {
           location={location}
         />
         <div className='card-cart-add'>
+          {/* font awesome */}
           <FontAwesomeIcon
             onClick={() => dispatch(addItemAction(item))}
             size='2x'
             icon={faCartPlus}
           />
         </div>
+        {/* falocation arrow */}
         <div className='card-info'>
           <div>{isSold ? <Chip color='#f50'>Sold</Chip> : ""}</div>
           <div className='card-location' onClick={() => setMapShow(true)}>

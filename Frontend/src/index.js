@@ -1,17 +1,17 @@
+// Author: Mikias Hailu and yared tsgie
+import { PersistGate } from "redux-persist/integration/react";
+import { store, persistor } from "./redux/store";
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+// state managements
+import axios from "axios";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-
+// react webvituals
 import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
-import { PersistGate } from "redux-persist/integration/react";
-import { store, persistor } from "./redux/store";
-import axios from "axios";
-/**
- * Configure axios
- */
+//axios
 axios.defaults.baseURL = "http://localhost:5440/api/v1/";
 
 ReactDOM.render(
@@ -26,8 +26,5 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+//report web vitals 
 reportWebVitals();

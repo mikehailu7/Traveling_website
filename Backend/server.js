@@ -1,13 +1,14 @@
+//author: mikias hailu and yared tsgie
 const mongoose = require('mongoose');
 const dotenv = require("dotenv");
 const app = require('./src/app');
-
+//config
 dotenv.config({ path: './.env' });
 
 const { isDev } = require('./src/utils/environment');
 const { seedDB } = require('./importData');
 
-/** connect to database */
+/** connection to mongo db database */
 mongoose.connect(isDev() ? process.env.LOCAL_DB_URI: process.env.REMOTE_DB_URI,
     {
         useNewUrlParser: true,
@@ -22,8 +23,6 @@ mongoose.connect(isDev() ? process.env.LOCAL_DB_URI: process.env.REMOTE_DB_URI,
         console.log("Database connection error!\n", e)
     });
 
-
-/** seed the database */
 if(!isDev()){
     seedDB(true);
 }
