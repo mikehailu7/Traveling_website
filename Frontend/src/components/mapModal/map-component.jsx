@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import mapboxgl from "mapbox-gl";
-import { Modal } from "../../antd-imports";
+import { Modal } from "../../ad-imports";
 import "./map-styles.scss";
 import styled from "styled-components";
 

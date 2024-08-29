@@ -15,7 +15,7 @@ import {
   faCartPlus,
 } from "@fortawesome/free-solid-svg-icons";
 import "./card-styles.scss";
-import { Card, Skeleton, Chip, Avatar } from "../../antd-imports";
+import { Card, Skeleton, Chip, Avatar } from "../../ad-imports";
 import "antd/dist/antd.css";
 import { IMAGE_SERVER_URL } from "../../URL";
 

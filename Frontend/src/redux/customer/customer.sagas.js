@@ -1,5 +1,5 @@
 import { takeLatest, call, put, all } from "redux-saga/effects";
-import userActionTypes from "./userAction.types";
+import userActionTypes from "./customer.types";
 import { loginBackend } from "../../backend-utils/auth-utils";
 import {
   getUserPosts,
@@ -8,23 +8,19 @@ import {
   getUser,
 } from "../../backend-utils/user-utils";
 import {
-  emailLoginSuccess,
-  emailLoginFailure,
-  onUserSignOutSuccess,
-  onUserSignOutFailure,
-  onFetchPostSuccess,
   onFetchPostFailure,
   onDeletePostSuccess,
   onDeletePostFailure,
   onPublishPostFailure,
+  emailLoginSuccess,
+  onFetchPostSuccess,
   onPublishPostSuccess,
   onFetchUserSuccess,
   onFetchUserFailure,
-} from "./userAction.creators";
-
-/**
- * Fetch user
- */
+  emailLoginFailure,
+  onUserSignOutSuccess,
+  onUserSignOutFailure,
+} from "./customer.creators";
 
 export function* fetchUser() {
   try {

@@ -11,7 +11,7 @@ import SigninPage from "./pages/auth/signin-page";
 import SignupPage from "./pages/auth/signup-page";
 import HousePage from "./pages/house/house-page";
 import ShowPage from "./pages/show/show-page";
-import { Notification, Button } from "./antd-imports";
+import { Notification, Button } from "./ad-imports";
 import "./App.css";
 
 import mapboxgl from "mapbox-gl";

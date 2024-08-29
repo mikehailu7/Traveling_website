@@ -7,7 +7,7 @@ import {
 } from "../../redux/wishlist/wishlistAction.creators";
 import Alxtravel from "../../assets/alxtravel.png";
 import MapModal from "../mapModal/map-component";
-import { Row, Col, Image, Stat, Button } from "../../antd-imports";
+import { Row, Col, Image, Stat, Button } from "../../ad-imports";
 import { StarRatingComponent } from "../styled-reusable/styled-reusable";
 import { HeartFilled } from "@ant-design/icons";
 import "./card-styles.scss";

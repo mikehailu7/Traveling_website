@@ -23,7 +23,7 @@ import {
   Form,
   Input,
   Select,
-} from "../../antd-imports";
+} from "../../ad-imports";
 import "./house-detail-styles.scss";
 
 import MapModal from "../../components/mapModal/map-component";

@@ -2,7 +2,7 @@
 import React, { useState, useRef } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { Typography } from '@material-ui/core';
-import { onPublishPostStart } from "../../redux/user/userAction.creators";
+import { onPublishPostStart } from "../../redux/customer/customer.creators";
 import { SelectOptionsInput } from "../../components/styled-reusable/styled-reusable";
 import {
   PageHeader,
@@ -11,7 +11,7 @@ import {
   Form,
   Input,
   InputNumber,
-} from "../../antd-imports";
+} from "../../ad-imports";
 import "./profile-styles.scss";
 import UploadAvatar from "../../components/upload/UploadAvatar";
 

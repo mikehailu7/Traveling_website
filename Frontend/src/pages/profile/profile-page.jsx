@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import {
   onFetchPostStart,
   onDeletePostStart,
-} from "../../redux/user/userAction.creators";
+} from "../../redux/customer/customer.creators";
 import Header from "../../components/header/header-component";
 import Footer from "../../components/footer/footer-component";
 import ProfilePosts from "./profile-posts";
@@ -12,7 +12,7 @@ import ProfileSettings from "./profile-settings";
 import { HorizontalCard } from "../../components/card/card-left-image-component";
 import { UserOutlined } from "@ant-design/icons";
 import { Container } from "../../components/styled-reusable/styled-reusable";
-import { Avatar, Tabs, PageHeader } from "../../antd-imports";
+import { Avatar, Tabs, PageHeader } from "../../ad-imports";
 import "./profile-styles.scss";
 
 import Home from "../../assets/place/beaches.jpg";

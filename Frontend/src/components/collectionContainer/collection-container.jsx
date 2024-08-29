@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import CollectionPreview from "../collectionPreview/collection-preview";
 import { HeaderTitle } from "../styled-reusable/styled-reusable";
-import { Spin, Pagination } from "../../antd-imports";
+import { Spin, Pagination } from "../../ad-imports";
 
 const CollectionContainer = () => {
   const [pageSize, setPageSize] = useState(1);

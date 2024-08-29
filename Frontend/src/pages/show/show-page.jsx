@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 import { getPostsByUserId } from "../../backend-utils/houses-utils";
 import { followUser, unFollowUser } from "../../backend-utils/user-utils";
-import { onFetchUserStart } from "../../redux/user/userAction.creators";
+import { onFetchUserStart } from "../../redux/customer/customer.creators";
 import Header from "../../components/header/header-component";
 import Footer from "../../components/footer/footer-component";
 import { HorizontalCard } from "../../components/card/card-left-image-component";
@@ -19,7 +19,7 @@ import {
   Button,
   Stat,
   Alert,
-} from "../../antd-imports";
+} from "../../ad-imports";
 import Abay from "../../assets/place/abay.jpg";
 import "./show-styles.scss";
 

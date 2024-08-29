@@ -2,8 +2,8 @@ import { combineReducers } from "redux";
 import { persistReducer } from "redux-persist";
 import storage from "redux-persist/lib/storage";
 
-import userReducer from "./user/user.reducer";
-import houseReducer from "./house/house.reducer";
+import userReducer from "./customer/user.reducer";
+import houseReducer from "./place/house.reducer";
 import wishlistReducer from "./wishlist/wishlist.reducer";
 
 const persistConfig = {

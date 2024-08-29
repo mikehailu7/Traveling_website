@@ -6,7 +6,7 @@ import {
   changePassword,
   getUser,
 } from "../../backend-utils/user-utils";
-import { setCurrentUser } from "../../redux/user/userAction.creators";
+import { setCurrentUser } from "../../redux/customer/customer.creators";
 import { useSelector } from "react-redux";
 import { CustomButton } from "../../components/styled-reusable/styled-reusable";
 import {
@@ -17,7 +17,7 @@ import {
   Col,
   Form,
   Alert,
-} from "../../antd-imports";
+} from "../../ad-imports";
 const { Item } = Form;
 
 export default function ProfileSettings() {

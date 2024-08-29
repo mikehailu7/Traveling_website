@@ -1,4 +1,4 @@
-import actionTypes from "./userAction.types";
+import actionTypes from "./customer.types";
 
 //set user token action
 export const setUserToken = (token) => {

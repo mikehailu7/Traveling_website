@@ -10,7 +10,7 @@ import {
 } from "../../components/styled-reusable/styled-reusable";
 import { HorizontalCard } from "../../components/card/card-left-image-component";
 import "./search-styles.scss";
-import { Row, Col, Menu, PageHeader, Spin, Slider } from "../../antd-imports";
+import { Row, Col, Menu, PageHeader, Spin, Slider } from "../../ad-imports";
 const { SubMenu, Item } = Menu;
 
 const SearchPage = () => {

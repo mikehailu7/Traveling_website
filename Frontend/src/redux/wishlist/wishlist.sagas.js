@@ -1,6 +1,6 @@
 import { all, call, takeLatest, put } from "redux-saga/effects";
 
-import userActionType from "../user/userAction.types";
+import userActionType from "../customer/customer.types";
 import { clearWishItem } from "./wishlistAction.creators";
 
 export function* clearCart() {

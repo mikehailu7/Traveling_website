@@ -8,7 +8,7 @@ import {
 } from "../../components/styled-reusable/styled-reusable";
 import Logo from "../../assets/logo.png";
 import { registerBackend } from "../../backend-utils/auth-utils";
-import { Row, Col } from "../../antd-imports";
+import { Row, Col } from "../../ad-imports";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay } from "swiper/core";
 import { Link } from "react-router-dom";

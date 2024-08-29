@@ -19,9 +19,9 @@ import Addis from "../../assets/place/addis.jpg";
 import {
   emailLoginStart,
   clearUserError,
-} from "../../redux/user/userAction.creators";
-import { selectAuthError } from "../../redux/user/user.selectors";
-import { Row, Col } from "../../antd-imports";
+} from "../../redux/customer/customer.creators";
+import { selectAuthError } from "../../redux/customer/customer.selectors";
+import { Row, Col } from "../../ad-imports";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay } from "swiper/core";
 SwiperCore.use(Autoplay);

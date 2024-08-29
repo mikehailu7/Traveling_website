@@ -1,9 +1,9 @@
 import React from "react";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
-import { selectCurrentUser } from "../../redux/user/user.selectors";
+import { selectCurrentUser } from "../../redux/customer/customer.selectors";
 import { selectCartItemsCount } from "../../redux/wishlist/wishlist.selectors";
-import { onUserSignOutStart } from "../../redux/user/userAction.creators";
+import { onUserSignOutStart } from "../../redux/customer/customer.creators";
 import {
   CustomButton,
   CustomButtonLink,

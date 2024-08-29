@@ -1,7 +1,7 @@
 import { all, call } from "redux-saga/effects";
 
-import userSagas from "./user/user.sagas";
-import houseSagas from "./house/house.sagas";
+import userSagas from "./customer/customer.sagas";
+import houseSagas from "./place/house.sagas";
 import wishlistSaga from "./wishlist/wishlist.sagas";
 
 export default function* rootSaga() {

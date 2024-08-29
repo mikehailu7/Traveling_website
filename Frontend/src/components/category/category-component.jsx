@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
-import { onCategoryFetchStart } from "../../redux/house/houseAction.creators";
+import { onCategoryFetchStart } from "../../redux/place/houseAction.creators";
 import { HeaderTitle, Param } from "../styled-reusable/styled-reusable";
 import RectCardComponent from "../card/rect-card-component";
 import { Swiper, SwiperSlide } from "swiper/react";

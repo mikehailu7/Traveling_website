@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { addItemAction } from "../../redux/wishlist/wishlistAction.creators";
 import styled from "styled-components";
 import { HeartFilled } from "@ant-design/icons";
-import { Button, Stat } from "../../antd-imports";
+import { Button, Stat } from "../../ad-imports";
 import { StarRatingComponent } from "../styled-reusable/styled-reusable";
 
 const ItemReviewContainer = styled.div`
