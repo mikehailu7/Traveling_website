@@ -4,11 +4,11 @@ import { store, persistor } from "./redux/store";
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-
+// state managements
 import axios from "axios";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-
+// react webvituals
 import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 
