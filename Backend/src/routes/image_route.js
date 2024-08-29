@@ -1,7 +1,7 @@
 const express = require("express");
 const imageController = require("../controllers/image/imageController");
 const protectRoute = require("../controllers/auth/authController").protectRoute;
-const { restrictRole } = require("../middlewares/authorizeRoute");
+const { restrictRole } = require("../middlewares/credentialroute");
 
 const imageRouter = express.Router({ mergeParams: true });
 

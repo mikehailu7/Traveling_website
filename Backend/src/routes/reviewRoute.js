@@ -1,7 +1,7 @@
 const express = require('express');
-const reviewsController = require('../controllers/review/reviewsController');
+const reviewsController = require('../controllers/place_reviews/reviewsController');
 const protectRoute = require('../controllers/auth/authController').protectRoute;
-const { restrictRole, isReviewOwner } = require('../middlewares/authorizeRoute');
+const { restrictRole, isReviewOwner } = require('../middlewares/credentialroute');
 
 const reviewRouter = express.Router({ mergeParams: true });
 

@@ -1,7 +1,7 @@
 const express = require("express");
 const usersController = require("../controllers/user/usersController");
 const protectRoute = require("../controllers/auth/authController").protectRoute;
-const { restrictRole } = require("../middlewares/authorizeRoute");
+const { restrictRole } = require("../middlewares/credentialroute");
 
 const userRouter = express.Router({ mergeParams: true });
 

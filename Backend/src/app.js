@@ -15,7 +15,7 @@ const cookieParser = require("cookie-parser");
 
 
 const AppError = require("./utils/appError");
-const globalErrorHandler = require("./middlewares/errorHandler");
+const globalErrorHandler = require("./middlewares/error");
 
 const authRouter = require("./routes/authenticationroute");
 const houseRouter = require("./routes/place_route");

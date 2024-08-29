@@ -1,4 +1,4 @@
-const User = require("../../models/userModel");
+const User = require("../../models/usermodel");
 const AppError = require("../../utils/appError");
 const catchAsync = require("../../utils/catchAsyncError");
 const { signJwtToken } = require("../../utils/processJWT");

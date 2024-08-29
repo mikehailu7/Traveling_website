@@ -1,8 +1,8 @@
 const express = require("express");
 const multer = require('multer');
 const reviewsRoute = require("./reviewRoute");
-const housesController = require("../controllers/house/housesController");
-const { isHouseOwner } = require("../middlewares/authorizeRoute");
+const housesController = require("../controllers/place/housesController");
+const { isHouseOwner } = require("../middlewares/credentialroute");
 const protectRoute = require("../controllers/auth/authController").protectRoute;
 
 

@@ -1,4 +1,4 @@
-const Review = require("../../models/reviewModel");
+const Review = require("../../models/reviewmodel");
 const controller = require("../generalController");
 const catchAsync = require("../../utils/catchAsyncError");
 const { sendResponse } = require("../../utils/successResponse");
