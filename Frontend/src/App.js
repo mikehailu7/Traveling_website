@@ -1,19 +1,20 @@
-/* eslint-disable react-hooks/exhaustive-deps */
+/* Authoer: Mikias Hailu and Yared Tsgie*/
 import React, { useState, useEffect } from "react";
-import "./App.css";
-import { Route, Switch, Redirect, useHistory } from "react-router-dom";
-import { useSelector } from "react-redux";
-import mapboxgl from "mapbox-gl";
+import HouseDetailPage from "./pages/houseDetail/house-detail-page";
+import SearchPage from "./pages/search/search-page";
+import ProfilePage from "./pages/profile/profile-page"
 import axios from "axios";
 import HomePage from "./pages/home/home-page";
+import { Route, Switch, Redirect, useHistory } from "react-router-dom";
+import { useSelector } from "react-redux";
 import SigninPage from "./pages/auth/signin-page";
 import SignupPage from "./pages/auth/signup-page";
 import HousePage from "./pages/house/house-page";
-import HouseDetailPage from "./pages/houseDetail/house-detail-page";
-import SearchPage from "./pages/search/search-page";
-import ProfilePage from "./pages/profile/profile-page";
 import ShowPage from "./pages/show/show-page";
 import { Notification, Button } from "./antd-imports";
+import "./App.css";
+
+import mapboxgl from "mapbox-gl";
 
 import { io } from "socket.io-client";
 
@@ -22,19 +23,18 @@ const NotFound = () => <div>Not found</div>;
 const App = () => {
   const history = useHistory();
   const currentUser = useSelector((state) => state.user.currentUser);
+
+  mapboxgl.accessToken =
+    "pk.eyJ1Ijoic2hvZGFuaSIsImEiOiJja3I1aTVqeWYwMmxmMnByb2IwdTQ3bHQ5In0.xsuYlqV01wrdlTuRYHDqvA";
   if (!currentUser) {
     history.push("/signin");
   }
-
+ /* token initiated*/
   const token = useSelector((state) => state.user.token);
   axios.interceptors.request.use(function (config) {
     config.headers.Authorization = `Bearer ${token}`;
     return config;
   });
-  // mapboxgl.accessToken = process.env.MAPBOX_TOKEN;
-  mapboxgl.accessToken =
-    "pk.eyJ1Ijoic2hvZGFuaSIsImEiOiJja3I1aTVqeWYwMmxmMnByb2IwdTQ3bHQ5In0.xsuYlqV01wrdlTuRYHDqvA";
-
   const [socket, setSocket] = useState();
   useEffect(() => {
     const s = io("http://localhost:5440");
@@ -43,7 +43,7 @@ const App = () => {
       s.disconnect();
     };
   }, []);
-
+ /*use effect initiated*/
   const openNotification = (data) => {
     const key = `open${Date.now()}`;
     const btn = (
@@ -100,6 +100,7 @@ const App = () => {
             )
           }
         />
+        {/* route of sign in*/}
         <Route
           exact
           path='/profile/visit'
@@ -107,13 +108,15 @@ const App = () => {
             currentUser ? <ShowPage /> : <Redirect to='/signin' />
           }
         />
-        <Route path='/houses/category' component={HousePage} />
+          {/* route of place page*/}
+        <Route path='/houses/category' component={placePage} />
         <Route
           path='/houses/:houseId'
           render={() =>
             currentUser ? <HouseDetailPage /> : <Redirect to='/signin' />
           }
         />
+          {/* route of sign in and sign up */}
         <Route
           exact
           path='/signin'
