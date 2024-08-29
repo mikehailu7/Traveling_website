@@ -5,11 +5,6 @@ const { restrictRole } = require("../middlewares/credentialroute");
 
 const imageRouter = express.Router({ mergeParams: true });
 
-// users access
-// imageRouter.use(protectRoute);
-// imageRouter.use(restrictRole(["admin"]));
-
-
 imageRouter.get("/get/:imageid", imageController.getImage);
 
 

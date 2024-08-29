@@ -74,7 +74,7 @@ const userSchema = new Schema(
     toObject: { virtuals: true },
   }
 );
-
+//save password
 userSchema.pre("save", async function (next) {
   if (!this.isModified("password")) return next();
 
@@ -92,7 +92,7 @@ userSchema.pre(/^find/, function (next) {
 userSchema.methods.comparePassword = async (inputPassword, storedPassword) => {
   return bcrypt.compare(inputPassword, storedPassword);
 };
-
+//change password 
 userSchema.methods.checkPasswordChange = (jwtTimeStamp) => {
   if (this.passwordChangedAt) {
     const passChangeTime = parseInt(

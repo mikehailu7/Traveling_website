@@ -1,15 +1,15 @@
 const { Schema, model } = require("mongoose");
-const House = require("./houseModel");
+const House = require("./placeModel");
 
 const reviewSchema = new Schema(
   {
     title: {
       type: String,
-      required: [true, "review must have title"],
+      required: [true, "Customer review must have title"],
     },
     comment: {
       type: String,
-      required: [true, "review must have comment"],
+      required: [true, "Customer review must have comment"],
     },
     likes: Number,
     dislikes: Number,
@@ -19,19 +19,19 @@ const reviewSchema = new Schema(
     },
     rating: {
       type: Number,
-      min: [1, "review needs to have rating!"],
-      max: [5, "review needs to have rating!"],
-      required: [true, "review needs to have rating!"],
+      min: [1, "Customer review needs to have rating!"],
+      max: [5, "Customer review needs to have rating!"],
+      required: [true, "Customer review needs to have rating!"],
     },
-    house: {
+    place: {
       type: Schema.Types.ObjectId,
-      ref: "House",
-      required: [true, "review needs to have House id"],
+      ref: "place",
+      required: [true, "Customer review needs to have House id"],
     },
-    user: {
+    Customer: {
       type: Schema.Types.ObjectId,
-      ref: "User",
-      required: [true, "review needs to have user id"],
+      ref: "customer",
+      required: [true, "Customer review needs to have user id"],
     },
   },
   {
