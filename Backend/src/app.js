@@ -1,26 +1,27 @@
+"Auther: mikias hailu and yared tsgie"
 
-const helmet = require("helmet");
-const xssClean = require("xss-clean");
 const hpp = require("hpp");
 const cookieParser = require("cookie-parser");
+const helmet = require("helmet");
+const xssClean = require("xss-clean");
 
-const imageRouter = require("./routes/image_route");
-const http = require("http");
+;
 const socket = require("socket.io");
 const { isDev } = require('./utils/environment');
-
-
-
+const imageRouter = require("./routes/image_route");
+const http = require("http")
 
 const AppError = require("./utils/appError");
 const globalErrorHandler = require("./middlewares/error");
-
-const authRouter = require("./routes/authenticationroute");
 const houseRouter = require("./routes/place_route");
 const reviewRouter = require("./routes/reviewRoute");
+const authRouter = require("./routes/authenticationroute");
+
 
 const express = require("express");
 const monogoSanitize = require("express-mongo-sanitize");
+const houseRouter = require("./routes/place_route");
+const reviewRouter = require("./routes/reviewRoute");
 const cors = require("cors");
 const userRouter = require("./routes/customerRoute");
 
@@ -28,17 +29,18 @@ const userRouter = require("./routes/customerRoute");
 const app = express();
 
 const server = http.createServer(app);
-const io = socket(server, {
-  cors: {
-    allowed: "*",
-  },
-});
 
 app.use(cors());
 
 app.use(cookieParser());
 
 app.use(express.json({ limit: "10kb" }));
+
+const io = socket(server, {
+  cors: {
+    allowed: "*",
+  },
+});
 
 app.use(monogoSanitize());
 
