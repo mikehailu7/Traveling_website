@@ -1,446 +1,375 @@
 [
-    {
-        "isSold": false,
-        "isRented": false,
-        "price": 1691.85,
-        "imageCover": "19850bce-e2f8-5ad7-b317-dfbecf9a559e",
-        "postedBy": "667fc64725e1964fec77af42",
-        "title": "Paris",
-        "description": "Paris, the capital of France, is a global hub of art, fashion, culture, and history. Known as the City of Light, it boasts iconic landmarks like the Eiffel Tower, Notre-Dame Cathedral, and the Louvre Museum.\r\n",
-        "location": {
-            "coordinates": [
-                2.3522,
-                48.8566
-            ]
-        },
-        "averageRating": 3,
-        "category": "CAPITALS",
-        "ratingQuantity": 476,
-        "totalLike": 1256
+  {
+    "isSold": false,
+    "isRented": false,
+    "price": 1691.85,
+    "imageCover": "paris.jpg",
+    "postedBy": "667fc64725e1964fec77af42",
+    "title": "Paris",
+    "description": "Paris, the capital of France, is a global hub of art, fashion, culture, and history. Known as the City of Light, it boasts iconic landmarks like the Eiffel Tower, Notre-Dame Cathedral, and the Louvre Museum.\r\n",
+    "location": {
+      "coordinates": [2.3522, 48.8566]
     },
-    {
-        "isSold": true,
-        "isRented": false,
-        "price": 1518.89,
-        "imageCover": "19850bce-e2f8-5ad7-b317-dfbecf9a559e",
-        "postedBy": "667fc64725e1964fec77af42",
-        "title": "Rome",
-        "description": "Rome, the capital of Italy, is a city steeped in history, often called the Eternal City. It is home to ancient landmarks such as the Colosseum, the Roman Forum, and the Pantheon, reflecting its rich heritage as the heart of the Roman Empire.\r\n",
-        "location": {
-            "coordinates": [
-                12.4964,
-                40.336810
-            ]
-        },
-        "averageRating": 5,
-        "category": "CAPITALS",
-        "ratingQuantity": 525,
-        "totalLike": 1549
+    "averageRating": 3,
+    "category": "CAPITALS",
+    "ratingQuantity": 476,
+    "totalLike": 1256
+  },
+  {
+    "isSold": true,
+    "isRented": false,
+    "price": 1518.89,
+    "imageCover": "rome.jpg",
+    "postedBy": "667fc64725e1964fec77af42",
+    "title": "Rome",
+    "description": "Rome, the capital of Italy, is a city steeped in history, often called the Eternal City. It is home to ancient landmarks such as the Colosseum, the Roman Forum, and the Pantheon, reflecting its rich heritage as the heart of the Roman Empire.\r\n",
+    "location": {
+      "coordinates": [12.4964, 40.33681]
     },
-    {
-        "isSold": false,
-        "isRented": false,
-        "price": 2997.78,
-        "imageCover": "19850bce-e2f8-5ad7-b317-dfbecf9a559e",
-        "postedBy": "667fc64725e1964fec77af42",
-        "title": "Stockholm",
-        "description": "Stockholm, the capital of Sweden, is a beautiful city spread across 14 islands connected by over 50 bridges. Known for its stunning waterfront, Stockholm blends modernity with rich history, featuring attractions like the Royal Palace, the medieval Gamla Stan (Old Town), and the innovative Vasa Museum.\r\n",
-        "location": {
-            "coordinates": [
-                18.0686,
-                59.3293
-            ]
-        },
-        "averageRating": 1,
-        "category": "CAPITALS",
-        "ratingQuantity": 110,
-        "totalLike": 1292,
-        "images": [
-            "http://placehold.it/32x32"
-        ]
+    "averageRating": 5,
+    "category": "CAPITALS",
+    "ratingQuantity": 525,
+    "totalLike": 1549
+  },
+  {
+    "isSold": false,
+    "isRented": false,
+    "price": 2997.78,
+    "imageCover": "hawaii.jpg",
+    "postedBy": "667fc64725e1964fec77af42",
+    "title": "Stockholm",
+    "description": "Stockholm, the capital of Sweden, is a beautiful city spread across 14 islands connected by over 50 bridges. Known for its stunning waterfront, Stockholm blends modernity with rich history, featuring attractions like the Royal Palace, the medieval Gamla Stan (Old Town), and the innovative Vasa Museum.\r\n",
+    "location": {
+      "coordinates": [18.0686, 59.3293]
     },
-    {
-        "isSold": true,
-        "isRented": false,
-        "price": 3207.39,
-        "imageCover": "ceb80925-494d-5ce3-9c7f-e78aa62e03f4",
-        "postedBy": "667fc64725e1964fec77af42",
-        "title": "Addis-Ababa",
-        "description": "Addis Ababa is the capital and largest city of Ethiopia, known for its rich history, vibrant culture, and stunning natural beauty. Nestled on a plateau at a high altitude, the city boasts a pleasant climate and panoramic views.\r\n",
-        "location": {
-            "coordinates": [
-                9.1450,
-                40.4897
-            ]
-        },
-        "averageRating": 5,
-        "category": "CAPITALS",
-        "ratingQuantity": 541,
-        "totalLike": 200
+    "averageRating": 1,
+    "category": "CAPITALS",
+    "ratingQuantity": 110,
+    "totalLike": 1292,
+    "images": ["http://placehold.it/32x32"]
+  },
+  {
+    "isSold": true,
+    "isRented": false,
+    "price": 3207.39,
+    "imageCover": "addisababa.jpg",
+    "postedBy": "667fc64725e1964fec77af42",
+    "title": "Addis-Ababa",
+    "description": "Addis Ababa is the capital and largest city of Ethiopia, known for its rich history, vibrant culture, and stunning natural beauty. Nestled on a plateau at a high altitude, the city boasts a pleasant climate and panoramic views.\r\n",
+    "location": {
+      "coordinates": [9.145, 40.4897]
     },
-    {
-        "isSold": true,
-        "isRented": false,
-        "price": 2775.48,
-        "imageCover": "ceb80925-494d-5ce3-9c7f-e78aa62e03f4",
-        "postedBy": "667fc64725e1964fec77af42",
-        "title": "London",
-        "description": "London, the capital of the United Kingdom, is a dynamic city where history and modernity intertwine. Famous for its iconic landmarks such as the Tower of London, Buckingham Palace, and the Houses of Parliament, London also boasts world-class museums, diverse neighborhoods, and a rich cultural scene.\r\n",
-        "location": {
-            "coordinates": [
-                0.1278,
-                51.5074
-            ]
-        },
-        "averageRating": 5,
-        "category": "CAPITALS",
-        "ratingQuantity": 706,
-        "totalLike": 932
+    "averageRating": 5,
+    "category": "CAPITALS",
+    "ratingQuantity": 541,
+    "totalLike": 200
+  },
+  {
+    "isSold": true,
+    "isRented": false,
+    "price": 2775.48,
+    "imageCover": "rome.jpg",
+    "postedBy": "667fc64725e1964fec77af42",
+    "title": "London",
+    "description": "London, the capital of the United Kingdom, is a dynamic city where history and modernity intertwine. Famous for its iconic landmarks such as the Tower of London, Buckingham Palace, and the Houses of Parliament, London also boasts world-class museums, diverse neighborhoods, and a rich cultural scene.\r\n",
+    "location": {
+      "coordinates": [0.1278, 51.5074]
     },
-    {
-        "isSold": false,
-        "isRented": false,
-        "price": 3830.66,
-        "imageCover": "05c1d812-319b-5786-95f9-f282e2ccb849",
-        "postedBy": "667fc64725e1964fec77af42",
-        "title": "Berlin",
-        "description": "Berlin, the capital of Germany, is a vibrant city known for its rich history, cultural diversity, and cutting-edge creativity. Famous for landmarks like the Brandenburg Gate, the Berlin Wall, and the Reichstag, Berlin is a city that blends its tumultuous past with a forward-looking spirit.\r\n",
-        "location": {
-            "coordinates": [
-                13.405,
-                52.52
-            ]
-        },
-        "averageRating": 1,
-        "category": "CAPITALS",
-        "ratingQuantity": 184,
-        "totalLike": 1766
-    }, 
-    {
-        "isSold": false,
-        "isRented": false,
-        "price": 1405.85,
-        "imageCover": "2e94d86b-92ff-5fe0-a516-0af4c41f36ea",
-        "postedBy": "667fc64725e1964fec77af42",
-        "title": "lalibela",
-        "description": "Lalibela is a UNESCO World Heritage Site and continues to be a major pilgrimage destination, especially during religious holidays like Ethiopian Christmas (Genna). The architecture and artistry of these churches reflect a blend of Axumite, Byzantine, and Coptic influences, making them a testament to the rich historical and religious heritage of Ethiopia..\r\n",
-        "location": {
-            "coordinates": [
-                39.0473,
-                12.0310
-            ]
-        },
-        "averageRating": 1,
-        "category": "AFRICA",
-        "ratingQuantity": 978,
-        "totalLike": 472
+    "averageRating": 5,
+    "category": "CAPITALS",
+    "ratingQuantity": 706,
+    "totalLike": 932
+  },
+  {
+    "isSold": false,
+    "isRented": false,
+    "price": 3830.66,
+    "imageCover": "paris2.jpg",
+    "postedBy": "667fc64725e1964fec77af42",
+    "title": "Berlin",
+    "description": "Berlin, the capital of Germany, is a vibrant city known for its rich history, cultural diversity, and cutting-edge creativity. Famous for landmarks like the Brandenburg Gate, the Berlin Wall, and the Reichstag, Berlin is a city that blends its tumultuous past with a forward-looking spirit.\r\n",
+    "location": {
+      "coordinates": [13.405, 52.52]
     },
-    {
-        "isSold": true,
-        "isRented": false,
-        "price": 2214.58,
-        "imageCover": "2e94d86b-92ff-5fe0-a516-0af4c41f36ea",
-        "postedBy": "667fc64725e1964fec77af42",
-        "title": "Ertale",
-        "description": "Ertale is a shield volcano located in the Afar Region of Ethiopia. It is known for its unique geological features, including its persistently active lava lake, which is one of only a few in the world. The volcano's summit is a caldera, a large, circular depression formed by volcanic activity.\r\n",
-        "location": {
-            "coordinates": [
-                40.6639,
-                13.6011
-            ]
-        },
-        "averageRating": 3,
-        "category": "AFRICA",
-        "ratingQuantity": 149,
-        "totalLike": 918
+    "averageRating": 1,
+    "category": "CAPITALS",
+    "ratingQuantity": 184,
+    "totalLike": 1766
+  },
+  {
+    "isSold": false,
+    "isRented": false,
+    "price": 1405.85,
+    "imageCover": "lalibela.jpg",
+    "postedBy": "667fc64725e1964fec77af42",
+    "title": "lalibela",
+    "description": "Lalibela is a UNESCO World Heritage Site and continues to be a major pilgrimage destination, especially during religious holidays like Ethiopian Christmas (Genna). The architecture and artistry of these churches reflect a blend of Axumite, Byzantine, and Coptic influences, making them a testament to the rich historical and religious heritage of Ethiopia..\r\n",
+    "location": {
+      "coordinates": [39.0473, 12.031]
     },
-    {
-        "isSold": true,
-        "isRented": false,
-        "price": 3874.27,
-        "imageCover": "2e94d86b-92ff-5fe0-a516-0af4c41f36ea",
-        "postedBy": "667fc64725e1964fec77af42",
-        "title": "Semen Mountains",
-        "description": "Semen Mountains are a mountain range located in the northern part of Ethiopia. They are known for their rugged terrain, deep gorges, and diverse ecosystems. The mountains are home to a variety of wildlife, including endangered species like the Ethiopian wolf and walia ibex. The area is also rich in cultural heritage, with ancient churches and monasteries nestled among the peaks.\r\n",
-        "location": {
-            "coordinates": [
-                38.1333,
-                13.1833
-            ]
-        },
-        "averageRating": 2,
-        "category": "AFRICA",
-        "ratingQuantity": 174,
-        "totalLike": 1586
+    "averageRating": 1,
+    "category": "AFRICA",
+    "ratingQuantity": 978,
+    "totalLike": 472
+  },
+  {
+    "isSold": true,
+    "isRented": false,
+    "price": 2214.58,
+    "imageCover": "ertale.jpg",
+    "postedBy": "667fc64725e1964fec77af42",
+    "title": "Ertale",
+    "description": "Ertale is a shield volcano located in the Afar Region of Ethiopia. It is known for its unique geological features, including its persistently active lava lake, which is one of only a few in the world. The volcano's summit is a caldera, a large, circular depression formed by volcanic activity.\r\n",
+    "location": {
+      "coordinates": [40.6639, 13.6011]
     },
-    {
-        "isSold": true,
-        "isRented": false,
-        "price": 3003.52,
-        "imageCover": "2e94d86b-92ff-5fe0-a516-0af4c41f36ea",
-        "postedBy": "667fc64725e1964fec77af42",
-        "title": "Pyramids of Giza",
-        "description": "The Pyramids of Giza, located on the outskirts of Cairo, Egypt, are ancient monumental structures built as tombs for the pharaohs during the Old Kingdom period. The complex includes the Great Pyramid of Khufu, the Pyramid of Khafre, and the Pyramid of Menkaure, along with the Great Sphinx.\r\n",
-        "location": {
-            "coordinates": [
-                31.1342,
-                29.9792
-            ]
-        },
-        "averageRating": 3,
-        "category": "AFRICA",
-        "ratingQuantity": 166,
-        "totalLike": 1741
+    "averageRating": 3,
+    "category": "AFRICA",
+    "ratingQuantity": 149,
+    "totalLike": 918
+  },
+  {
+    "isSold": true,
+    "isRented": false,
+    "price": 3874.27,
+    "imageCover": "mountain.jpg",
+    "postedBy": "667fc64725e1964fec77af42",
+    "title": "Semen Mountains",
+    "description": "Semen Mountains are a mountain range located in the northern part of Ethiopia. They are known for their rugged terrain, deep gorges, and diverse ecosystems. The mountains are home to a variety of wildlife, including endangered species like the Ethiopian wolf and walia ibex. The area is also rich in cultural heritage, with ancient churches and monasteries nestled among the peaks.\r\n",
+    "location": {
+      "coordinates": [38.1333, 13.1833]
     },
-    {
-        "isSold": false,
-        "isRented": false,
-        "price": 2788.73,
-        "imageCover": "2e94d86b-92ff-5fe0-a516-0af4c41f36ea",
-        "postedBy": "667fc64725e1964fec77af42",
-        "title": "Mount Kilimanjaro",
-        "description": "Mount Kilimanjaro, located in Tanzania, is the highest mountain in Africa, standing at 5,895 meters (19,341 feet) above sea level. It is a dormant stratovolcano with three volcanic cones: Kibo, Mawenzi, and Shira.\r\n",
-        "location": {
-            "coordinates": [
-                68.971288,
-                11.048166
-            ]
-        },
-        "averageRating": 2,
-        "category": "AFRICA",
-        "ratingQuantity": 415,
-        "totalLike": 1979
+    "averageRating": 2,
+    "category": "AFRICA",
+    "ratingQuantity": 174,
+    "totalLike": 1586
+  },
+  {
+    "isSold": true,
+    "isRented": false,
+    "price": 3003.52,
+    "imageCover": "mountain.jpg",
+    "postedBy": "667fc64725e1964fec77af42",
+    "title": "Pyramids of Giza",
+    "description": "The Pyramids of Giza, located on the outskirts of Cairo, Egypt, are ancient monumental structures built as tombs for the pharaohs during the Old Kingdom period. The complex includes the Great Pyramid of Khufu, the Pyramid of Khafre, and the Pyramid of Menkaure, along with the Great Sphinx.\r\n",
+    "location": {
+      "coordinates": [31.1342, 29.9792]
     },
-    {
-        "isSold": true,
-        "isRented": false,
-        "price": 1665.29,
-        "imageCover": "05c1d812-319b-5786-95f9-f282e2ccb849",
-        "postedBy": "667fc64725e1964fec77af42",
-        "title": "Monaco",
-        "description": "Monaco, a tiny sovereign city-state on the French Riviera, is known for its wealth, glamour, and stunning Mediterranean coastline. Despite its small size, Monaco is famous for the luxurious Monte Carlo Casino, the prestigious Formula 1 Grand Prix, and the opulent Prince's Palace. With its upscale resorts, yacht-lined harbor, and status as a tax haven, Monaco attracts the rich and famous from around the world.\r\n",
-        "location": {
-            "coordinates": [
-                7.4167,
-                43.7333
-            ]
-        },
-        "averageRating": 3,
-        "category": "BEACHES",
-        "ratingQuantity": 744,
-        "totalLike": 89
+    "averageRating": 3,
+    "category": "AFRICA",
+    "ratingQuantity": 166,
+    "totalLike": 1741
+  },
+  {
+    "isSold": false,
+    "isRented": false,
+    "price": 2788.73,
+    "imageCover": "mountain.jpg",
+    "postedBy": "667fc64725e1964fec77af42",
+    "title": "Mount Kilimanjaro",
+    "description": "Mount Kilimanjaro, located in Tanzania, is the highest mountain in Africa, standing at 5,895 meters (19,341 feet) above sea level. It is a dormant stratovolcano with three volcanic cones: Kibo, Mawenzi, and Shira.\r\n",
+    "location": {
+      "coordinates": [68.971288, 11.048166]
     },
+    "averageRating": 2,
+    "category": "AFRICA",
+    "ratingQuantity": 415,
+    "totalLike": 1979
+  },
+  {
+    "isSold": true,
+    "isRented": false,
+    "price": 1665.29,
+    "imageCover": "beaches.jpg",
+    "postedBy": "667fc64725e1964fec77af42",
+    "title": "Monaco",
+    "description": "Monaco, a tiny sovereign city-state on the French Riviera, is known for its wealth, glamour, and stunning Mediterranean coastline. Despite its small size, Monaco is famous for the luxurious Monte Carlo Casino, the prestigious Formula 1 Grand Prix, and the opulent Prince's Palace. With its upscale resorts, yacht-lined harbor, and status as a tax haven, Monaco attracts the rich and famous from around the world.\r\n",
+    "location": {
+      "coordinates": [7.4167, 43.7333]
+    },
+    "averageRating": 3,
+    "category": "BEACHES",
+    "ratingQuantity": 744,
+    "totalLike": 89
+  },
 
-    {
-        "isSold": false,
-        "isRented": false,
-        "price": 1812.18,
-        "imageCover": "3e0ea637-10c9-5674-87a4-3be669ee3aff",
-        "postedBy": "667fc64725e1964fec77af42",
-        "title": "Madeira",
-        "description": "Madeira is a Portuguese archipelago located in the North Atlantic Ocean, known for its stunning landscapes, mild climate, and rich cultural heritage. The main island, also called Madeira, is characterized by rugged terrain, lush greenery, and dramatic cliffs overlooking the ocean.\r\n",
-        "location": {
-            "coordinates": [
-                16.9595,
-                32.7607
-            ]
-        },
-        "averageRating": 1,
-        "category": "BEACHES",
-        "ratingQuantity": 447,
-        "totalLike": 1192
+  {
+    "isSold": false,
+    "isRented": false,
+    "price": 1812.18,
+    "imageCover": "beaches.jpg",
+    "postedBy": "667fc64725e1964fec77af42",
+    "title": "Madeira",
+    "description": "Madeira is a Portuguese archipelago located in the North Atlantic Ocean, known for its stunning landscapes, mild climate, and rich cultural heritage. The main island, also called Madeira, is characterized by rugged terrain, lush greenery, and dramatic cliffs overlooking the ocean.\r\n",
+    "location": {
+      "coordinates": [16.9595, 32.7607]
     },
-    {
-        "isSold": false,
-        "isRented": false,
-        "price": 1542.29,
-        "imageCover": "3e0ea637-10c9-5674-87a4-3be669ee3aff",
-        "postedBy": "667fc64725e1964fec77af42",
-        "title": "Ibiza",
-        "description": "Ibiza is a Spanish island in the Mediterranean Sea, part of the Balearic Islands. Known worldwide for its vibrant nightlife, electronic music scene, and stunning beaches, Ibiza attracts tourists from around the globe.\r\n",
-        "location": {
-            "coordinates": [
-                1.4206,
-                38.9067
-            ]
-        },
-        "averageRating": 5,
-        "category": "BEACHES",
-        "ratingQuantity": 440,
-        "totalLike": 1963
+    "averageRating": 1,
+    "category": "BEACHES",
+    "ratingQuantity": 447,
+    "totalLike": 1192
+  },
+  {
+    "isSold": false,
+    "isRented": false,
+    "price": 1542.29,
+    "imageCover": "beaches.jpg",
+    "postedBy": "667fc64725e1964fec77af42",
+    "title": "Ibiza",
+    "description": "Ibiza is a Spanish island in the Mediterranean Sea, part of the Balearic Islands. Known worldwide for its vibrant nightlife, electronic music scene, and stunning beaches, Ibiza attracts tourists from around the globe.\r\n",
+    "location": {
+      "coordinates": [1.4206, 38.9067]
     },
-    {
-        "isSold": false,
-        "isRented": false,
-        "price": 1502.33,
-        "imageCover": "3e0ea637-10c9-5674-87a4-3be669ee3aff",
-        "postedBy": "667fc64725e1964fec77af42",
-        "title": "Hawaii",
-        "description": "Hawaii is a U.S. state located in the central Pacific Ocean, comprising a chain of volcanic islands. Known for its stunning natural beauty, Hawaii is famous for its tropical beaches, lush rainforests, active volcanoes, and unique cultural heritage.\r\n",
-        "location": {
-            "coordinates": [
-                -5.18537,
-                -74.942455
-            ]
-        },
-        "averageRating": 3,
-        "category": "BEACHES",
-        "ratingQuantity": 539,
-        "totalLike": 1795
+    "averageRating": 5,
+    "category": "BEACHES",
+    "ratingQuantity": 440,
+    "totalLike": 1963
+  },
+  {
+    "isSold": false,
+    "isRented": false,
+    "price": 1502.33,
+    "imageCover": "beaches.jpg",
+    "postedBy": "667fc64725e1964fec77af42",
+    "title": "Hawaii",
+    "description": "Hawaii is a U.S. state located in the central Pacific Ocean, comprising a chain of volcanic islands. Known for its stunning natural beauty, Hawaii is famous for its tropical beaches, lush rainforests, active volcanoes, and unique cultural heritage.\r\n",
+    "location": {
+      "coordinates": [-5.18537, -74.942455]
     },
-    {
-        "isSold": false,
-        "isRented": false,
-        "price": 2433.25,
-        "imageCover": "3e0ea637-10c9-5674-87a4-3be669ee3aff",
-        "postedBy": "667fc64725e1964fec77af42",
-        "title": "Mombasa",
-        "description": "Mombasa is a major city on the coast of Kenya, known for its vibrant culture, historical sites, and beautiful beaches along the Indian Ocean. It is Kenya’s second-largest city and an important port city with a rich history influenced by various cultures, including Arab, Portuguese, and British.\r\n",
-        "location": {
-            "coordinates": [
-                155.5828,
-                19.8968
-            ]
-        },
-        "averageRating": 5,
-        "category": "BEACHES",
-        "ratingQuantity": 917,
-        "totalLike": 661
+    "averageRating": 3,
+    "category": "BEACHES",
+    "ratingQuantity": 539,
+    "totalLike": 1795
+  },
+  {
+    "isSold": false,
+    "isRented": false,
+    "price": 2433.25,
+    "imageCover": "beaches.jpg",
+    "postedBy": "667fc64725e1964fec77af42",
+    "title": "Mombasa",
+    "description": "Mombasa is a major city on the coast of Kenya, known for its vibrant culture, historical sites, and beautiful beaches along the Indian Ocean. It is Kenya’s second-largest city and an important port city with a rich history influenced by various cultures, including Arab, Portuguese, and British.\r\n",
+    "location": {
+      "coordinates": [155.5828, 19.8968]
     },
-    {
-        "isSold": true,
-        "isRented": false,
-        "price": 2980.93,
-        "imageCover": "3e0ea637-10c9-5674-87a4-3be669ee3aff",
-        "postedBy": "667fc64725e1964fec77af42",
-        "title": "Venus Beach",
-        "description": "Venus Beach, located on the island of Cyprus, is a beautiful stretch of coastline known for its clear turquoise waters and scenic surroundings. It is situated near the town of Paphos, a popular tourist destination in southwestern Cyprus.\r\n",
-        "location": {
-            "coordinates": [
-                39.6682,
-                4.0435
-            ]
-        },
-        "averageRating": 3,
-        "category": "BEACHES",
-        "ratingQuantity": 74,
-        "totalLike": 1754
+    "averageRating": 5,
+    "category": "BEACHES",
+    "ratingQuantity": 917,
+    "totalLike": 661
+  },
+  {
+    "isSold": true,
+    "isRented": false,
+    "price": 2980.93,
+    "imageCover": "beaches.jpg",
+    "postedBy": "667fc64725e1964fec77af42",
+    "title": "Venus Beach",
+    "description": "Venus Beach, located on the island of Cyprus, is a beautiful stretch of coastline known for its clear turquoise waters and scenic surroundings. It is situated near the town of Paphos, a popular tourist destination in southwestern Cyprus.\r\n",
+    "location": {
+      "coordinates": [39.6682, 4.0435]
     },
-   
-    {
-        "isSold": true,
-        "isRented": false,
-        "price": 1307.84,
-        "imageCover": "914f8410-a0ad-5a58-83eb-96cd706c4a90",
-        "postedBy": "667fc64725e1964fec77af42",
-        "title": "Abay River",
-        "description": "The Abay River, also known as the Blue Nile, is one of the major rivers in Ethiopia. It originates from Lake Tana in the Ethiopian Highlands and flows northward through the country, eventually joining the White Nile to form the Nile River in Sudan.\r\n",
-        "location": {
-            "coordinates": [
-                37.0000,
-                12.0000
-            ]
-        },
-        "averageRating": 2,
-        "category": "RIVERS",
-        "ratingQuantity": 957,
-        "totalLike": 777
-    },
-    {
-        "isSold": true,
-        "isRented": false,
-        "price": 1380.43,
-        "imageCover": "ceb80925-494d-5ce3-9c7f-e78aa62e03f4",
-        "postedBy": "667fc64725e1964fec77af42",
-        "title": "Mississippi River ",
-        "description": "The Mississippi River is one of the longest rivers in North America, stretching about 2,340 miles (3,766 kilometers) from its source at Lake Itasca in Minnesota to its mouth in the Gulf of Mexico. It flows southward through the central United States, passing through several major cities, including St. Louis, Memphis, and New Orleans.\r\n",
-        "location": {
-            "coordinates": [
-                90.0715,
-                29.9511
-            ]
-        },
-        "averageRating": 2,
-        "category": "RIVERS",
-        "ratingQuantity": 806,
-        "totalLike": 1080
-    },
-    {
-        "isSold": false,
-        "isRented": false,
-        "price": 3823.41,
-        "imageCover": "ceb80925-494d-5ce3-9c7f-e78aa62e03f4",
-        "postedBy": "667fc64725e1964fec77af42",
-        "title": "White Nile",
-        "description": "The White Nile is a major river in northeastern Africa, forming one of the two main tributaries of the Nile River, the other being the Blue Nile. It originates from Lake Victoria, which is situated on the border of Uganda, Tanzania, and Kenya, and flows northward through Uganda and South Sudan before joining the Blue Nile in Sudan to form the Nile River.\r\n",
-        "location": {
-            "coordinates": [
-                33.0000,
-                1.0000
-            ]
-        },
-        "averageRating": 5,
-        "category": "RIVERS",
-        "ratingQuantity": 852,
-        "totalLike": 994
-    },
+    "averageRating": 3,
+    "category": "BEACHES",
+    "ratingQuantity": 74,
+    "totalLike": 1754
+  },
 
-    {
-        "isSold": false,
-        "isRented": false,
-        "price": 1691.85,
-        "imageCover": "19850bce-e2f8-5ad7-b317-dfbecf9a559e",
-        "postedBy": "667fc64725e1964fec77af42",
-        "title": "Paris",
-        "description": "aris, the capital of France, is a global hub of art, fashion, culture, and history. Known as the City of Light, it boasts iconic landmarks like the Eiffel Tower, Notre-Dame Cathedral, and the Louvre Museum.\r\n",
-        "location": {
-            "coordinates": [
-                2.3522,
-                48.8566
-            ]
-        },
-        "averageRating": 3,
-        "category": "TOP_VISITED",
-        "ratingQuantity": 476,
-        "totalLike": 1256
+  {
+    "isSold": true,
+    "isRented": false,
+    "price": 1307.84,
+    "imageCover": "abay.jpg",
+    "postedBy": "667fc64725e1964fec77af42",
+    "title": "Abay River",
+    "description": "The Abay River, also known as the Blue Nile, is one of the major rivers in Ethiopia. It originates from Lake Tana in the Ethiopian Highlands and flows northward through the country, eventually joining the White Nile to form the Nile River in Sudan.\r\n",
+    "location": {
+      "coordinates": [37.0, 12.0]
     },
+    "averageRating": 2,
+    "category": "RIVERS",
+    "ratingQuantity": 957,
+    "totalLike": 777
+  },
+  {
+    "isSold": true,
+    "isRented": false,
+    "price": 1380.43,
+    "imageCover": "hawaii.jpg",
+    "postedBy": "667fc64725e1964fec77af42",
+    "title": "Mississippi River ",
+    "description": "The Mississippi River is one of the longest rivers in North America, stretching about 2,340 miles (3,766 kilometers) from its source at Lake Itasca in Minnesota to its mouth in the Gulf of Mexico. It flows southward through the central United States, passing through several major cities, including St. Louis, Memphis, and New Orleans.\r\n",
+    "location": {
+      "coordinates": [90.0715, 29.9511]
+    },
+    "averageRating": 2,
+    "category": "RIVERS",
+    "ratingQuantity": 806,
+    "totalLike": 1080
+  },
+  {
+    "isSold": false,
+    "isRented": false,
+    "price": 3823.41,
+    "imageCover": "abay.jpg",
+    "postedBy": "667fc64725e1964fec77af42",
+    "title": "White Nile",
+    "description": "The White Nile is a major river in northeastern Africa, forming one of the two main tributaries of the Nile River, the other being the Blue Nile. It originates from Lake Victoria, which is situated on the border of Uganda, Tanzania, and Kenya, and flows northward through Uganda and South Sudan before joining the Blue Nile in Sudan to form the Nile River.\r\n",
+    "location": {
+      "coordinates": [33.0, 1.0]
+    },
+    "averageRating": 5,
+    "category": "RIVERS",
+    "ratingQuantity": 852,
+    "totalLike": 994
+  },
 
-    {
-        "isSold": true,
-        "isRented": false,
-        "price": 1307.84,
-        "imageCover": "914f8410-a0ad-5a58-83eb-96cd706c4a90",
-        "postedBy": "667fc64725e1964fec77af42",
-        "title": "Abay River",
-        "description": "The Abay River, also known as the Blue Nile, is one of the major rivers in Ethiopia. It originates from Lake Tana in the Ethiopian Highlands and flows northward through the country, eventually joining the White Nile to form the Nile River in Sudan.\r\n",
-        "location": {
-            "coordinates": [
-                37.0000,
-                12.0000
-            ]
-        },
-        "averageRating": 2,
-        "category": "TOP_VISITED",
-        "ratingQuantity": 957,
-        "totalLike": 777
+  {
+    "isSold": false,
+    "isRented": false,
+    "price": 1691.85,
+    "imageCover": "paris2.jpg",
+    "postedBy": "667fc64725e1964fec77af42",
+    "title": "Paris",
+    "description": "aris, the capital of France, is a global hub of art, fashion, culture, and history. Known as the City of Light, it boasts iconic landmarks like the Eiffel Tower, Notre-Dame Cathedral, and the Louvre Museum.\r\n",
+    "location": {
+      "coordinates": [2.3522, 48.8566]
     },
-     {
-        "isSold": false,
-        "isRented": false,
-        "price": 1502.33,
-        "imageCover": "3e0ea637-10c9-5674-87a4-3be669ee3aff",
-        "postedBy": "667fc64725e1964fec77af42",
-        "title": "Hawaii",
-        "description": "Hawaii is a U.S. state located in the central Pacific Ocean, comprising a chain of volcanic islands. Known for its stunning natural beauty, Hawaii is famous for its tropical beaches, lush rainforests, active volcanoes, and unique cultural heritage.\r\n",
-        "location": {
-            "coordinates": [
-                155.5828,
-                19.8968
-            ]
-        },
-        "averageRating": 3,
-        "category": "TOP_VISITED",
-        "ratingQuantity": 539,
-        "totalLike": 1795
-    }
+    "averageRating": 3,
+    "category": "TOP_VISITED",
+    "ratingQuantity": 476,
+    "totalLike": 1256
+  },
+
+  {
+    "isSold": true,
+    "isRented": false,
+    "price": 1307.84,
+    "imageCover": "abay.jpg",
+    "postedBy": "667fc64725e1964fec77af42",
+    "title": "Abay River",
+    "description": "The Abay River, also known as the Blue Nile, is one of the major rivers in Ethiopia. It originates from Lake Tana in the Ethiopian Highlands and flows northward through the country, eventually joining the White Nile to form the Nile River in Sudan.\r\n",
+    "location": {
+      "coordinates": [37.0, 12.0]
+    },
+    "averageRating": 2,
+    "category": "TOP_VISITED",
+    "ratingQuantity": 957,
+    "totalLike": 777
+  },
+  {
+    "isSold": false,
+    "isRented": false,
+    "price": 1502.33,
+    "imageCover": "hawaii.jpg",
+    "postedBy": "667fc64725e1964fec77af42",
+    "title": "Hawaii",
+    "description": "Hawaii is a U.S. state located in the central Pacific Ocean, comprising a chain of volcanic islands. Known for its stunning natural beauty, Hawaii is famous for its tropical beaches, lush rainforests, active volcanoes, and unique cultural heritage.\r\n",
+    "location": {
+      "coordinates": [155.5828, 19.8968]
+    },
+    "averageRating": 3,
+    "category": "TOP_VISITED",
+    "ratingQuantity": 539,
+    "totalLike": 1795
+  }
 ]

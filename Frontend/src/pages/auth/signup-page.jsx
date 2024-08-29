@@ -132,7 +132,7 @@ export default class SignupComponent extends Component {
         <Row>
           <Col xs={0} sm={0} md={10} lg={12}>
             <div className='logo-decoder'>
-              <LogoDecor name='Alx-Travel' />
+              <LogoDecor name='Alx' />
             </div>
             <Swiper
               autoplay={{ delay: 2500, disableOnInteraction: false }}

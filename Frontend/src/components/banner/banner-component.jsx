@@ -10,7 +10,7 @@ export default function BannerComponent() {
       <div className='my-5 banner-container'>
         <div className='d-flex flex-column'>
           <HeaderTitle className='display-3 header-title-1'>
-            Travel the world 
+            Travel the World 
           </HeaderTitle>
           <h4
             className='text-wrap  py-2 header-title-3'
