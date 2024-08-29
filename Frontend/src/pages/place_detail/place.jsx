@@ -3,17 +3,17 @@ import React, { useState, useEffect } from "react";
 import { useParams, useHistory } from "react-router-dom";
 import { postReview } from "../../backend-utils/review-utils";
 import { getOneHouse } from "../../backend-utils/houses-utils";
-import Header from "../../components/header/header-component";
+import Header from "../../components/header/h-component";
 import Footer from "../../components/footer/footer-component";
 import {
   Container,
   SelectOptionsInput,
   CustomButton,
-} from "../../components/styled-reusable/styled-reusable";
+} from "../../components/reusable/styled-reusable";
 
-import ImagesDisplay from "../../components/houseDetailCard/image-display.component";
-import ItemInfo from "../../components/houseDetailCard/item-info.component";
-import SingleReview from "../../components/singleReview/single-review.component";
+import ImagesDisplay from "../../components/placedetail/image-display.component";
+import ItemInfo from "../../components/placedetail/item-info.component";
+import SingleReview from "../../components/sReview/single-review.component";
 import {
   PageHeader,
   Button,
@@ -26,7 +26,7 @@ import {
 } from "../../ad-imports";
 import "./house-detail-styles.scss";
 
-import MapModal from "../../components/mapModal/map-component";
+import MapModal from "../../components/map/map-component";
 const { Item } = Form;
 const { TextArea } = Input;
 

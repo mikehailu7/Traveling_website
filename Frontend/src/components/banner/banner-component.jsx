@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./banner-styles.scss";
 import AlxTravel from "../../assets/alxtravel.png";
-import { HeaderTitle } from "../styled-reusable/styled-reusable";
+import { HeaderTitle } from "../reusable/styled-reusable";
 
 export default function BannerComponent() {
   return (

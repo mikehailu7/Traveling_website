@@ -1,16 +1,17 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { addItemAction } from "../../redux/wishlist/wishlistAction.creators";
+import { addItemAction } from "../../redux/wishlist/wistAc.creators";
 import styled from "styled-components";
 import { HeartFilled } from "@ant-design/icons";
 import { Button, Stat } from "../../ad-imports";
-import { StarRatingComponent } from "../styled-reusable/styled-reusable";
+import { StarRatingComponent } from "../reusable/styled-reusable";
 
 const ItemReviewContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-right: 0.6rem;
+
 `;
 
 const ItemInfo = ({ item }) => {
@@ -31,6 +32,7 @@ const ItemInfo = ({ item }) => {
       <ul style={{ listStyle: "none" }}>
         <Stat title={category} value={title} />
         <li>
+          {/* item review container */}
           <ItemReviewContainer>
             <div>
               <StarRatingComponent rateDefault={averageRating} disabled />{" "}
@@ -53,6 +55,7 @@ const ItemInfo = ({ item }) => {
           <p>{description}</p>
         </li>
         <li>
+          //button
           <Button
             type='primary'
             danger

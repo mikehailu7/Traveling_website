@@ -5,8 +5,8 @@ import { useHistory } from "react-router-dom";
 import RectCardComponent from "../card/rect-card-component";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation } from "swiper/core";
-import { onCategoryFetchStart } from "../../redux/place/houseAction.creators";
-import { HeaderTitle, Param } from "../styled-reusable/styled-reusable";
+import { onCategoryFetchStart } from "../../redux/place/place.creators";
+import { HeaderTitle, Param } from "../reusable/styled-reusable";
 
 import "swiper/swiper-bundle.css";
 

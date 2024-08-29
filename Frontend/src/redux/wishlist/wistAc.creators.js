@@ -1,4 +1,4 @@
-import wishlistActionType from "./wishlistAction.types";
+import wishlistActionType from "./wistAction.types";
 
 export const addItemAction = (wishItem) => {
   return {

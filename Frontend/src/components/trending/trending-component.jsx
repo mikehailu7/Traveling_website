@@ -1,11 +1,11 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { onTrendingFetchStart } from "../../redux/place/houseAction.creators";
+import { onTrendingFetchStart } from "../../redux/place/place.creators";
 /**
  * Styles import
  */
-import { HeaderTitle, Param } from "../styled-reusable/styled-reusable";
+import { HeaderTitle, Param } from "../reusable/styled-reusable";
 import CardItem from "../card/card-component";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation } from "swiper/core";
@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 import {
 
   CustomButtonOutlined,
-} from "../styled-reusable/styled-reusable";
+} from "../reusable/styled-reusable";
 
 SwiperCore.use(Navigation);
 

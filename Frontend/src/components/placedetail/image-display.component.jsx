@@ -1,7 +1,17 @@
+//Author: mikias Hailu and yared tsgie
 import React, { useState } from "react";
-import styled, { css } from "styled-components";
 import { IMAGE_SERVER_URL } from "../../URL";
+import styled, { css } from "styled-components";
 
+
+
+
+
+const VDisplay = css`
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-evenly;
+`;
 
 const HDisplay = css`
   flex-direction: row;
@@ -9,17 +19,12 @@ const HDisplay = css`
   align-items: center;
 `;
 
-const VDisplay = css`
-  flex-direction: column;
-  justify-content: center;
-  align-items: space-evenly;
-`;
 const ImageDisplayConatiner = styled.div`
-  width: 100%;
-  min-width: 300px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  width: 100%;
+  min-width: 300px;
   @media screen and (max-width: 800px) {
     flex-direction: column;
     justify-content: center;
@@ -30,12 +35,12 @@ const ImageDisplayConatiner = styled.div`
   .image-display {
     flex: 1;
     display: flex;
+    align-self: flex-start;
+    margin-top: 1rem;
     flex-direction: column;
     justify-content: center;
     align-items: space-evenly;
     order: 0;
-    align-self: flex-start;
-    margin-top: 1rem;
 
     @media screen and (max-width: 800px) {
       order: 2;

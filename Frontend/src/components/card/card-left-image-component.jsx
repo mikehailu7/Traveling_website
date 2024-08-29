@@ -3,17 +3,17 @@ import { useDispatch } from "react-redux";
 import {
   addItemAction,
   purgeWishItem,
-} from "../../redux/wishlist/wishlistAction.creators";
+} from "../../redux/wishlist/wistAc.creators";
 import { useHistory } from "react-router-dom";
 
 import Alxtravel from "../../assets/alxtravel.png";
-import MapModal from "../mapModal/map-component";
+import MapModal from "../map/map-component";
 import { HeartFilled } from "@ant-design/icons";
 import "./card-styles.scss";
 import { IMAGE_SERVER_URL } from "../../URL";
 
 import { Row, Col, Image, Stat, Button } from "../../ad-imports";
-import { StarRatingComponent } from "../styled-reusable/styled-reusable";
+import { StarRatingComponent } from "../reusable/styled-reusable";
 
 
 export const HorizontalCard = ({

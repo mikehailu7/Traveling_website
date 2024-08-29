@@ -1,7 +1,8 @@
+//author: mikias hailu and yared tsgie
 const mongoose = require('mongoose');
 const dotenv = require("dotenv");
 const app = require('./src/app');
-
+//config
 dotenv.config({ path: './.env' });
 
 const { isDev } = require('./src/utils/environment');

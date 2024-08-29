@@ -1,6 +1,6 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import { MoreButton, ListConfig } from "../styled-reusable/styled-reusable";
+import { MoreButton, ListConfig } from "../reusable/styled-reusable";
 import "./collection-preview-styles.scss";
 import CardItem from "../card/card-component";
 import { Row, Col } from "../../ad-imports";

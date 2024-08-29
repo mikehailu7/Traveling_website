@@ -9,7 +9,7 @@ import {
   FormCheckBox,
   CustomButton,
   LogoDecor,
-} from "../../components/styled-reusable/styled-reusable";
+} from "../../components/reusable/styled-reusable";
 import Logo from "../../assets/logo.png";
 import Paris from "../../assets/place/paris.jpg";
 import Rome from "../../assets/place/rome.jpg";

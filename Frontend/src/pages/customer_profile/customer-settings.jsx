@@ -8,7 +8,7 @@ import {
 } from "../../backend-utils/user-utils";
 import { setCurrentUser } from "../../redux/customer/customer.creators";
 import { useSelector } from "react-redux";
-import { CustomButton } from "../../components/styled-reusable/styled-reusable";
+import { CustomButton } from "../../components/reusable/styled-reusable";
 import {
   PageHeader,
   Button,

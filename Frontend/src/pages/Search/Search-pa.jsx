@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import { searchHouses } from "../../backend-utils/houses-utils";
 import { useSelector } from "react-redux";
 
-import Header from "../../components/header/header-component";
+import Header from "../../components/header/h-component";
 import Footer from "../../components/footer/footer-component";
 import {
   Container,
   SearchInputCompnent,
-} from "../../components/styled-reusable/styled-reusable";
+} from "../../components/reusable/styled-reusable";
 import { HorizontalCard } from "../../components/card/card-left-image-component";
 import "./search-styles.scss";
 import { Row, Col, Menu, PageHeader, Spin, Slider } from "../../ad-imports";

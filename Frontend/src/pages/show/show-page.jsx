@@ -5,11 +5,11 @@ import { useHistory } from "react-router-dom";
 import { getPostsByUserId } from "../../backend-utils/houses-utils";
 import { followUser, unFollowUser } from "../../backend-utils/user-utils";
 import { onFetchUserStart } from "../../redux/customer/customer.creators";
-import Header from "../../components/header/header-component";
+import Header from "../../components/header/h-component";
 import Footer from "../../components/footer/footer-component";
 import { HorizontalCard } from "../../components/card/card-left-image-component";
 import { UserOutlined, PlusOutlined, MinusOutlined } from "@ant-design/icons";
-import { Container } from "../../components/styled-reusable/styled-reusable";
+import { Container } from "../../components/reusable/styled-reusable";
 import {
   Avatar,
   Row,

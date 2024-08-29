@@ -1,5 +1,5 @@
-import actionTypes from "./wishlistAction.types";
-import { addItemToCart } from "./wishlist-utils";
+import actionTypes from "./wistAction.types";
+import { addItemToCart } from "./wutils";
 
 const INITIAL_STATE = {
   wishlists: [],

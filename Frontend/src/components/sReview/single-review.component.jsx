@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { CaretUpFilled, CaretDownFilled } from "@ant-design/icons";
 import "./single-review.styles.scss";
 import avatar from "../../assets/logo.png";
-import { StarRatingComponent } from "../styled-reusable/styled-reusable";
+import { StarRatingComponent } from "../reusable/styled-reusable";
 
 const ProfileAvatar = styled.div`
   background-image: url(${(props) => props.image});

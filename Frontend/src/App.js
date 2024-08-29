@@ -1,15 +1,15 @@
 /* Authoer: Mikias Hailu and Yared Tsgie*/
 import React, { useState, useEffect } from "react";
-import HouseDetailPage from "./pages/houseDetail/house-detail-page";
-import SearchPage from "./pages/search/search-page";
-import ProfilePage from "./pages/profile/profile-page"
+import HouseDetailPage from "./pages/place_detail/place";
+import SearchPage from "./pages/Search/Search-pa";
+import ProfilePage from "./pages/customer_profile/customer-page"
 import axios from "axios";
 import HomePage from "./pages/home/home-page";
 import { Route, Switch, Redirect, useHistory } from "react-router-dom";
 import { useSelector } from "react-redux";
 import SigninPage from "./pages/auth/signin-page";
 import SignupPage from "./pages/auth/signup-page";
-import HousePage from "./pages/house/house-page";
+import HousePage from "./pages/place/place-page";
 import ShowPage from "./pages/show/show-page";
 import { Notification, Button } from "./ad-imports";
 import "./App.css";

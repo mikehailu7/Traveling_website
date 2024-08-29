@@ -12,7 +12,7 @@ import {
   onCategoryFetchFailure,
   onCategoryHouseFetchSuccess,
   onCategoryHouseFetchFailure,
-} from "./houseAction.creators";
+} from "./place.creators";
 
 /**
  * category with houses fetch sagas

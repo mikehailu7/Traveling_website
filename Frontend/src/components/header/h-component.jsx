@@ -1,19 +1,23 @@
+//Authoer: mikias hailu and yared tsgie
 import React from "react";
-import { connect } from "react-redux";
-import { createStructuredSelector } from "reselect";
-import { selectCurrentUser } from "../../redux/customer/customer.selectors";
-import { selectCartItemsCount } from "../../redux/wishlist/wishlist.selectors";
-import { onUserSignOutStart } from "../../redux/customer/customer.creators";
-import {
-  CustomButton,
-  CustomButtonLink,
-} from "../styled-reusable/styled-reusable";
 import { Link } from "react-router-dom";
 import "./header-styles.scss";
 import "antd/dist/antd.css";
-import { LogOutComponent } from "../styled-reusable/styled-reusable";
+import { connect } from "react-redux";
+import { createStructuredSelector } from "reselect";
+import { selectCurrentUser } from "../../redux/customer/customer.selectors";
+import { selectCartItemsCount } from "../../redux/wishlist/wlist.selectors";
+import { onUserSignOutStart } from "../../redux/customer/customer.creators";
+
+
+import { LogOutComponent } from "../reusable/styled-reusable";
+import {
+  CustomButton,
+  CustomButtonLink,
+} from "../reusable/styled-reusable";
 
 const LoginComponent = () => {
+  // login page
   return (
     <ul className='navbar-nav ml-auto mb-2 mb-lg-0 d-lg-flex'>
       <li className='nav-item order-lg-1'>
@@ -33,7 +37,7 @@ const LoginComponent = () => {
     </ul>
   );
 };
-
+//header components
 function HeaderComponent({ currentUser, logoutUser, itemCount }) {
   return (
     <div className=''>
@@ -81,14 +85,14 @@ function HeaderComponent({ currentUser, logoutUser, itemCount }) {
     </div>
   );
 }
+const mapDispatchToProps = (dispatch) => ({
+  logoutUser: () => dispatch(onUserSignOutStart()),
+});
 
 const mapStateToProps = createStructuredSelector({
   currentUser: selectCurrentUser,
   itemCount: selectCartItemsCount,
 });
 
-const mapDispatchToProps = (dispatch) => ({
-  logoutUser: () => dispatch(onUserSignOutStart()),
-});
-
+//export connect
 export default connect(mapStateToProps, mapDispatchToProps)(HeaderComponent);

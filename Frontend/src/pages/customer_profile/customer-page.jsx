@@ -5,13 +5,13 @@ import {
   onFetchPostStart,
   onDeletePostStart,
 } from "../../redux/customer/customer.creators";
-import Header from "../../components/header/header-component";
+import Header from "../../components/header/h-component";
 import Footer from "../../components/footer/footer-component";
-import ProfilePosts from "./profile-posts";
-import ProfileSettings from "./profile-settings";
+import ProfilePosts from "./customer-posts";
+import ProfileSettings from "./customer-settings";
 import { HorizontalCard } from "../../components/card/card-left-image-component";
 import { UserOutlined } from "@ant-design/icons";
-import { Container } from "../../components/styled-reusable/styled-reusable";
+import { Container } from "../../components/reusable/styled-reusable";
 import { Avatar, Tabs, PageHeader } from "../../ad-imports";
 import "./profile-styles.scss";
 

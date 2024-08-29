@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { Spin, Pagination } from "../../ad-imports";
 import CollectionPreview from "../collectionPreview/collection-preview";
-import { HeaderTitle } from "../styled-reusable/styled-reusable";
+import { HeaderTitle } from "../reusable/styled-reusable";
 
 const CollectionContainer = () => {
   //variable declaration
