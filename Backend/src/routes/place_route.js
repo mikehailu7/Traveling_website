@@ -8,7 +8,7 @@ const protectRoute = require("../controllers/auth/authController").protectRoute;
 
 const PERMITED_IMAGE_FILES = ["png", "gif", "jpeg", "x-png", "bmp"];
 
-const { createOne } = require("../services/add_image");
+const { createOne } = require("../services/upload_image");
 
 const houseRouter = express.Router();
 
