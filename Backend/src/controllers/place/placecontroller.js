@@ -1,8 +1,8 @@
 const House = require("../../models/houseModel");
 const controller = require("../ge_customer");
-const catchAsync = require("../../utils/catchAsyncError");
-const { sendResponse } = require("../../utils/successResponse");
-const ApiFilters = require("../../utils/apiFilters");
+const catchAsync = require("../../utils/catcherror");
+const { sendResponse } = require("../../utils/sucResponse");
+const ApiFilters = require("../../utils/apiFi");
 
 //async route handler methods
 exports.getAllHouses = controller.getAll(House);

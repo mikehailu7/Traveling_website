@@ -1,3 +1,5 @@
+//author: mikias hailu and yared tsgie
+
 const { body, validationResult } = require("express-validator");
 
 const userSignupInputRule = () => {
@@ -5,15 +7,15 @@ const userSignupInputRule = () => {
     body("firstname")
       .not()
       .isEmpty()
-      .withMessage("first name is required")
+      .withMessage("first name is needed")
       .isLength({ min: 2 })
       .withMessage("first name should be at least 2 charachter long"),
     body("lastname")
       .not()
       .isEmpty()
-      .withMessage("last name is required")
+      .withMessage("last name is needed")
       .isLength({ min: 2 })
-      .withMessage("last name should be at least 2 charachter long"),
+      .withMessage("last name needs to be more than least 2 char "),
     body("email").isEmail(),
     body("phone")
       .not()
@@ -24,9 +26,9 @@ const userSignupInputRule = () => {
     body("password")
       .not()
       .isEmpty()
-      .withMessage("password is required")
+      .withMessage("password is needed")
       .isLength({ min: 6 })
-      .withMessage("password should be at least 6 character long"),
+      .withMessage("password needs to be least 6 char long"),
   ];
 };
 
@@ -38,7 +40,7 @@ const userSigninInputRule = () => {
       .isEmpty()
       .withMessage("password is required")
       .isLength({ min: 6 })
-      .withMessage("password should be at least 6 character long"),
+      .withMessage("password should be at least 6 char"),
   ];
 };
 

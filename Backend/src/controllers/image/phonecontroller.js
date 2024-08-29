@@ -2,13 +2,13 @@ const fs = require("fs");
 var path = require("path");
 const House_images = require("../../models/imgmodel");
 const House = require("../../models/houseModel");
-const AppError = require("../../utils/appError");
-const catchAsync = require("../../utils/catchAsyncError");
-const { signJwtToken } = require("../../utils/processJWT");
+const AppError = require("../../utils/Error");
+const catchAsync = require("../../utils/catcherror");
+const { signJwtToken } = require("../../utils/pJWT");
 const {
   sendResponse,
   sendResponseWithToken,
-} = require("../../utils/successResponse");
+} = require("../../utils/sucResponse");
 // const constroller = require("../generalController");
 
 

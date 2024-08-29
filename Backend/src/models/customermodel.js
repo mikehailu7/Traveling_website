@@ -1,6 +1,7 @@
-const { Schema, model } = require("mongoose");
-const bcrypt = require("bcrypt");
 const validator = require("validator");
+const bcrypt = require("bcrypt");
+const { Schema, model } = require("mongoose");
+
 
 /**
  * User Schema
@@ -29,8 +30,8 @@ const userSchema = new Schema(
     phone: {
       type: String,
       required: [true, "phone number is needed"],
-      minlength: [10, "invalid phone, too short"],
-      maxlength: [14, "invalid phone, too long"],
+      minlength: [10, "phone, too short"],
+      maxlength: [14, "phone, too long"],
     },
     avatar: {
       type: String,

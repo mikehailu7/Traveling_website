@@ -1,6 +1,8 @@
-const { Schema, model } = require("mongoose");
-const bcrypt = require("bcrypt");
+//author: mikias hailu and yared tsgie
 const validator = require("validator");
+const bcrypt = require("bcrypt");
+const { Schema, model } = require("mongoose");
+
 
 const imageSchema = new Schema(
   {
