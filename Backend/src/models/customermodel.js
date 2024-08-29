@@ -10,18 +10,18 @@ const userSchema = new Schema(
     firstname: {
       type: String,
       required: [true, "first name is needed"],
-      minlength: [2, "you need atleast 2 characters!"],
-      maxlength: [24, "you need atleast maximum 24 characters!"],
+      minlength: [2, "you require atleast 2 char"],
+      maxlength: [24, "you require atleast max 24 char"],
     },
     lastname: {
       type: String,
       required: [true, "last name is needed"],
-      minlength: [2, "you need atleast 2 characters!"],
-      maxlength: [24, "you need atleast maximum 24 characters!"],
+      minlength: [2, "you require atleast 2 char"],
+      maxlength: [24, "you require maximum 24 char"],
     },
     email: {
       type: String,
-      required: [true, "user should have email!"],
+      required: [true, "customer should have email!"],
       unique: true,
       lowercase: true,
       validate: [validator.isEmail, "Invalid email"],
@@ -40,14 +40,14 @@ const userSchema = new Schema(
       type: String,
       enum: {
         values: ["user", "broker", "admin"],
-        message: "{VALUE} you dont have a role",
+        message: "{VALUE} no previlage",
       },
       default: "user",
     },
 
     password: {
       type: String,
-      required: [true, "user should have password!"],
+      required: [true, "customer needs password"],
       minlength: 6,
       maxlength: 24,
       select: false,

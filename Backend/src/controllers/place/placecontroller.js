@@ -1,5 +1,5 @@
 const House = require("../../models/houseModel");
-const controller = require("../generalController");
+const controller = require("../ge_customer");
 const catchAsync = require("../../utils/catchAsyncError");
 const { sendResponse } = require("../../utils/successResponse");
 const ApiFilters = require("../../utils/apiFilters");

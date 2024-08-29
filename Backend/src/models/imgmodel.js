@@ -2,34 +2,32 @@ const { Schema, model } = require("mongoose");
 const bcrypt = require("bcrypt");
 const validator = require("validator");
 
-/**
- * User Schema
- */
 const imageSchema = new Schema(
   {
 
+    // imageid
     imageID: {
       type: String,
-      required: [true, "imageID is required"],
-      minlength: [2, "imageID should contain atleast 2 characters!"],
+      required: [true, "imgID is required"],
+      minlength: [2, "imgID to contain 2 characters!"],
     },
 
     mimetype: {
       type: String,
-      required: [true, "house Id is required"],
-      minlength: [2, "house Id should contain atleast 2 characters!"],
+      required: [true, "place id is required"],
+      minlength: [2, "place id contain 2 characters!"],
     },
 
     encoding: {
       type: String,
-      required: [true, "encoding is required"],
-      minlength: [2, "encoding should contain atleast 2 characters!"],
+      required: [true, "encoding is req"],
+      minlength: [2, "encoding atleast 2 char!"],
     },
 
     originalname: {
       type: String,
       required: [true, "originalname is required"],
-      minlength: [2, "originalname should contain atleast 2 characters!"],
+      minlength: [2, "originalname atleast 2 char"],
     },
 
     createdAt: {

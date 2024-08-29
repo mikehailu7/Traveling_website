@@ -1,9 +1,9 @@
 const express = require("express");
 const multer = require('multer');
 const reviewsRoute = require("./reviewRoute");
-const housesController = require("../controllers/place/housesController");
+const housesController = require("../controllers/place/placecontroller");
 const { isHouseOwner } = require("../middlewares/credentialroute");
-const protectRoute = require("../controllers/auth/authController").protectRoute;
+const protectRoute = require("../controllers/auth/authenticatecont").protectRoute;
 
 
 const PERMITED_IMAGE_FILES = ["png", "gif", "jpeg", "x-png", "bmp"];

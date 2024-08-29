@@ -1,4 +1,4 @@
-const User = require("../../models/usermodel");
+const User = require("../../models/customermodel");
 const AppError = require("../../utils/appError");
 const catchAsync = require("../../utils/catchAsyncError");
 const { signJwtToken } = require("../../utils/processJWT");
@@ -6,7 +6,7 @@ const {
   sendResponse,
   sendResponseWithToken,
 } = require("../../utils/successResponse");
-const constroller = require("../generalController");
+const constroller = require("../ge_customer");
 
 const filterBody = (reqBody, ...allowedFields) => {
   let newReqBody = {};
