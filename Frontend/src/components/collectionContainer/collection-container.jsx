@@ -1,23 +1,23 @@
-/* eslint-disable react-hooks/exhaustive-deps */
+//Author: Mikias Hail and yared tsgie
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
+import { Spin, Pagination } from "../../ad-imports";
 import CollectionPreview from "../collectionPreview/collection-preview";
 import { HeaderTitle } from "../styled-reusable/styled-reusable";
-import { Spin, Pagination } from "../../ad-imports";
 
 const CollectionContainer = () => {
+  //variable declaration
   const [pageSize, setPageSize] = useState(1);
-  const isFetching = useSelector((state) => state.house.categoryFetching);
-  const categoryHouses = useSelector((state) => state.house.categoryHouses);
-
   const perPage = 10;
   const totalPage = categoryHouses.length;
+  const isFetching = useSelector((state) => state.house.categoryFetching);
+  const categoryHouses = useSelector((state) => state.house.categoryHouses);
 
   const houseCategoryPerPage = categoryHouses.slice(
     (pageSize - 1) * perPage,
     pageSize * perPage
   );
-
+//header
   return (
     <div>
       <Spin spinning={isFetching}>
@@ -40,7 +40,7 @@ const CollectionContainer = () => {
             />
           ))}
       </div>
-
+{/* //pagination  */}
       <div>
         <Pagination
           style={{

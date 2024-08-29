@@ -1,12 +1,13 @@
-/* eslint-disable react-hooks/exhaustive-deps */
+//author: mikias hailu and yared tsgie
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
-import { onCategoryFetchStart } from "../../redux/place/houseAction.creators";
-import { HeaderTitle, Param } from "../styled-reusable/styled-reusable";
 import RectCardComponent from "../card/rect-card-component";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation } from "swiper/core";
+import { onCategoryFetchStart } from "../../redux/place/houseAction.creators";
+import { HeaderTitle, Param } from "../styled-reusable/styled-reusable";
+
 import "swiper/swiper-bundle.css";
 
 SwiperCore.use(Navigation);
@@ -25,7 +26,7 @@ export default function CategoryComponent() {
   useEffect(() => {
     dispatch(onCategoryFetchStart(2));
   }, []);
-
+// header
   return (
     <div className='mt-4'>
       <div className='category-header d-flex align-items-center justify-content-between'>

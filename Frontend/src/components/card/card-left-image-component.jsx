@@ -1,17 +1,19 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { useHistory } from "react-router-dom";
 import {
   addItemAction,
   purgeWishItem,
 } from "../../redux/wishlist/wishlistAction.creators";
+import { useHistory } from "react-router-dom";
+
 import Alxtravel from "../../assets/alxtravel.png";
 import MapModal from "../mapModal/map-component";
-import { Row, Col, Image, Stat, Button } from "../../ad-imports";
-import { StarRatingComponent } from "../styled-reusable/styled-reusable";
 import { HeartFilled } from "@ant-design/icons";
 import "./card-styles.scss";
 import { IMAGE_SERVER_URL } from "../../URL";
+
+import { Row, Col, Image, Stat, Button } from "../../ad-imports";
+import { StarRatingComponent } from "../styled-reusable/styled-reusable";
 
 
 export const HorizontalCard = ({
@@ -49,6 +51,7 @@ export const HorizontalCard = ({
         location={location}
       />
       <Row>
+        {/* imagecover */}
         <Col sm={24} md={6}>
           <div className='image-container'>
             <Image
@@ -58,6 +61,7 @@ export const HorizontalCard = ({
             />
           </div>
         </Col>
+        {/* horizontal card */}
         <Col sm={24} md={18}>
           <div className='horizontal-card-body'>
             <div
@@ -71,6 +75,7 @@ export const HorizontalCard = ({
                 <Stat title={<HeartFilled color='#f00' />} value={totalLike} />
               </div>
             </div>
+            {/* price */}
             <p>Price ${price}</p>
             <p
               style={{
@@ -80,7 +85,7 @@ export const HorizontalCard = ({
               }}>
               {description}
             </p>
-
+              {/* show map */}
             <div className='horizontal-card-actions'>
               <div>
                 <StarRatingComponent value={averageRating} disabled />
@@ -133,3 +138,5 @@ export const HorizontalCard = ({
     </div>
   );
 };
+
+//cart left

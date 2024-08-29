@@ -7,6 +7,7 @@ import { HeaderTitle } from "../styled-reusable/styled-reusable";
 export default function BannerComponent() {
   return (
     <section>
+      {/* the fist section  */}
       <div className='my-5 banner-container'>
         <div className='d-flex flex-column'>
           <HeaderTitle className='display-3 header-title-1'>
