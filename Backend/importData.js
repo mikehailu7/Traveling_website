@@ -1,12 +1,14 @@
+//author: mikias hailu and yared tsgie
 const fs = require('fs');
-const mongoose = require('mongoose');
-const House = require('./src/models/houseModel');
-const House_images = require('./src/models/imageModel');
+const place_images = require('./src/models/imageModel');
 const dotenv = require("dotenv");
+const mongoose = require('mongoose');
+const place = require('./src/models/houseModel');
+
 
 dotenv.config({ path: './.env' });
 
-const { isDev } = require('./src/utils/environment');
+const { isDev } = require('./src/utils/env');
 
 exports.seedDB = (isImport = true) => {
     const file = JSON.parse(fs.readFileSync(`${__dirname}/dummyJson.json`, 'utf-8'));
@@ -16,7 +18,7 @@ exports.seedDB = (isImport = true) => {
             await House.deleteMany();
             await House.create(file);
             console.log("house data inserted!");
-            // process.exit();
+    
         } catch (err) {
             console.log(err)
         }
@@ -26,7 +28,6 @@ exports.seedDB = (isImport = true) => {
         try {
             await House.deleteMany();
             console.log("house data deleted!");
-            // process.exit();
         } catch (err) {
             console.log(err)
         }

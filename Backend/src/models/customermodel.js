@@ -1,6 +1,7 @@
-const { Schema, model } = require("mongoose");
-const bcrypt = require("bcrypt");
 const validator = require("validator");
+const bcrypt = require("bcrypt");
+const { Schema, model } = require("mongoose");
+
 
 /**
  * User Schema
@@ -10,18 +11,18 @@ const userSchema = new Schema(
     firstname: {
       type: String,
       required: [true, "first name is needed"],
-      minlength: [2, "you need atleast 2 characters!"],
-      maxlength: [24, "you need atleast maximum 24 characters!"],
+      minlength: [2, "you require atleast 2 char"],
+      maxlength: [24, "you require atleast max 24 char"],
     },
     lastname: {
       type: String,
       required: [true, "last name is needed"],
-      minlength: [2, "you need atleast 2 characters!"],
-      maxlength: [24, "you need atleast maximum 24 characters!"],
+      minlength: [2, "you require atleast 2 char"],
+      maxlength: [24, "you require maximum 24 char"],
     },
     email: {
       type: String,
-      required: [true, "user should have email!"],
+      required: [true, "customer should have email!"],
       unique: true,
       lowercase: true,
       validate: [validator.isEmail, "Invalid email"],
@@ -29,8 +30,8 @@ const userSchema = new Schema(
     phone: {
       type: String,
       required: [true, "phone number is needed"],
-      minlength: [10, "invalid phone, too short"],
-      maxlength: [14, "invalid phone, too long"],
+      minlength: [10, "phone, too short"],
+      maxlength: [14, "phone, too long"],
     },
     avatar: {
       type: String,
@@ -40,14 +41,14 @@ const userSchema = new Schema(
       type: String,
       enum: {
         values: ["user", "broker", "admin"],
-        message: "{VALUE} you dont have a role",
+        message: "{VALUE} no previlage",
       },
       default: "user",
     },
 
     password: {
       type: String,
-      required: [true, "user should have password!"],
+      required: [true, "customer needs password"],
       minlength: 6,
       maxlength: 24,
       select: false,
@@ -74,7 +75,7 @@ const userSchema = new Schema(
     toObject: { virtuals: true },
   }
 );
-
+//save password
 userSchema.pre("save", async function (next) {
   if (!this.isModified("password")) return next();
 
@@ -92,7 +93,7 @@ userSchema.pre(/^find/, function (next) {
 userSchema.methods.comparePassword = async (inputPassword, storedPassword) => {
   return bcrypt.compare(inputPassword, storedPassword);
 };
-
+//change password 
 userSchema.methods.checkPasswordChange = (jwtTimeStamp) => {
   if (this.passwordChangedAt) {
     const passChangeTime = parseInt(

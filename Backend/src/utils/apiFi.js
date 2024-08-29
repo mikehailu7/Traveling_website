@@ -3,11 +3,8 @@ class ApiFilters {
     this.query = query;
     this.queryString = queryString;
   }
-  /**
-   * filter query objects for specific fields
-   */
+
   filter() {
-    // sanitize queryParams
     const queryObj = { ...this.queryString };
     const queryExcluded = ["page", "limit", "sort", "fields"];
     queryExcluded.forEach((el) => delete queryObj[el]);
@@ -18,29 +15,26 @@ class ApiFilters {
 
     return this;
   }
-
+//sort
   sort() {
-    // sorting query
+
     if (this.queryString.sort) {
       let sortBy = this.queryString.sort;
       sortBy = sortBy.split(",").join(" ");
       this.query = this.query.sort(sortBy);
     } else {
-      // default sort using date
       this.query = this.query.sort("-price");
     }
 
     return this;
   }
-
+//limitedfields
   limitFields() {
-    // field limiting or projecting
     if (this.queryString.fields) {
       let selctBy = this.queryString.fields;
       selctBy = selctBy.split(",").join(" ");
       this.query = this.query.select(selctBy);
     } else {
-      // default field excluding the version
       this.query = this.query.select("-__v");
     }
 

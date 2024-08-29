@@ -1,4 +1,4 @@
-const { isDev } = require("./environment");
+const { isDev } = require("./env");
 
 exports.sendResponse = (statusCode, data, res) => {
     res.status(statusCode).send({

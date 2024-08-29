@@ -5,7 +5,7 @@ const app = require('./src/app');
 //config
 dotenv.config({ path: './.env' });
 
-const { isDev } = require('./src/utils/environment');
+const { isDev } = require('./src/utils/env');
 const { seedDB } = require('./importData');
 
 /** connection to mongo db database */

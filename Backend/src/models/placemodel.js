@@ -1,23 +1,24 @@
+//Author: Mikias Hailu and yared tsgie
 const { Schema, model, SchemaTypes } = require("mongoose");
 
-const houseSchema = new Schema(
+const placeSchema = new Schema(
   {
     title: {
       type: String,
-      required: [true, "House needs to have title"],
+      required: [true, "place needs to have title"],
     },
     description: {
       type: String,
-      required: [true, "house needs to have description"],
+      required: [true, "place needs to have description"],
     },
     price: {
       type: Number,
-      required: [true, "House needs to have price"],
+      required: [true, "place needs to have price"],
     },
     postedBy: {
       type: SchemaTypes.ObjectId,
       ref: "User",
-      required: [true, "House needs to have postedBy user id"],
+      required: [true, "place needs to have postedBy user id"],
     },
     postDate: {
       type: Date,
@@ -25,7 +26,7 @@ const houseSchema = new Schema(
     },
     imageCover: {
       type: String,
-      required: [true, "House should have a cover image"],
+      required: [true, "place should have a cover image"],
     },
     images: [String],
     isSold: {
@@ -38,7 +39,7 @@ const houseSchema = new Schema(
     },
     category: {
       type: String,
-      required: [true, "House should have category"],
+      required: [true, "place should have category"],
     },
     location: {
       //geo json location
@@ -54,8 +55,8 @@ const houseSchema = new Schema(
       type: Number,
       default: 2.5,
       required: false,
-      min: [1, "House rating can only be between 1 and 5 value!"],
-      max: [5, "House rating can only be between 1 and 5 value!"],
+      min: [1, "place rating"],
+      max: [5, "place rating"],
       set: (val) => Math.round(val * 10) / 10,
     },
     ratingQuantity: {
@@ -73,21 +74,21 @@ const houseSchema = new Schema(
   }
 );
 
-// index averageRating for faster query
-houseSchema.index({ averageRating: 1, price: -1 });
+// index
+placeSchema.index({ averageRating: 1, price: -1 });
 
-//populate reviews on product fetch
-houseSchema.virtual("reviews", {
+//populate reviews
+placeSchema.virtual("reviews", {
   ref: "Review",
-  foreignField: "house",
+  foreignField: "place",
   localField: "_id",
 });
 
-// fetch associated users on house query
+// placeschema
 placeSchema.pre(/^find/, function (next) {
   this.populate({
     path: "postedBy",
-    select: "firstname lastname email phone soldItems avatar",
+    select: "firstname",
   });
 
   next();

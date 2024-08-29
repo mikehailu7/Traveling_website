@@ -7,11 +7,11 @@ const xssClean = require("xss-clean");
 
 ;
 const socket = require("socket.io");
-const { isDev } = require('./utils/environment');
+const { isDev } = require('./utils/env');
 const imageRouter = require("./routes/image_route");
 const http = require("http")
 
-const AppError = require("./utils/appError");
+const AppError = require("./utils/Error");
 const globalErrorHandler = require("./middlewares/error");
 const houseRouter = require("./routes/place_route");
 const reviewRouter = require("./routes/reviewRoute");

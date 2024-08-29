@@ -1,7 +1,7 @@
-const { sendResponse } = require("../utils/successResponse");
-const catchAsync = require("../utils/catchAsyncError");
-const AppError = require("../utils/appError");
-const ApiFilters = require("../utils/apiFilters");
+const { sendResponse } = require("../utils/sucResponse");
+const catchAsync = require("../utils/catcherror");
+const AppError = require("../utils/Error");
+const ApiFilters = require("../utils/apiFi");
 
 exports.deleteOne = (Model) =>
   catchAsync(async (req, res, next) => {

@@ -1,5 +1,5 @@
 const Review = require("../../models/reviewmodel");
-const controller = require("../generalController");
+const controller = require("../ge_customer");
 const catchAsync = require("../../utils/catchAsyncError");
 const { sendResponse } = require("../../utils/successResponse");
 const AppError = require("../../utils/appError");

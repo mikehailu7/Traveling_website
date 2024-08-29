@@ -1,9 +1,9 @@
-const User = require('../../models/usermodel');
-const { signJwtToken, verifyJwtToken } = require('../../utils/processJWT');
-const { sendResponse, sendResponseWithToken } = require('../../utils/successResponse');
-const catchAsync = require('../../utils/catchAsyncError');
-const AppError = require('../../utils/appError');
-const { isAdmin } = require('../../utils/checkUserRole');
+const User = require('../../models/customermodel');
+const { signJwtToken, verifyJwtToken } = require('../../utils/pJWT');
+const { sendResponse, sendResponseWithToken } = require('../../utils/sucResponse');
+const catchAsync = require('../../utils/catcherror');
+const AppError = require('../../utils/Error');
+const { isAdmin } = require('../../utils/checkRole');
 
 exports.login = catchAsync(async (req, res, next) => {
     const { email, password } = req.body;
