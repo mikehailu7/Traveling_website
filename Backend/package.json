@@ -24,14 +24,14 @@
     "dev": "nodemon server.js",
     "debug": "ndb server.js"
   },
-  "name": "Rentopia",
+  "name": "Alx-Travel",
   "version": "1.0.0",
-  "description": "House renting website",
+  "description": "Traveling website",
   "main": "server.js",
   "devDependencies": {
     "morgan": "^1.10.0",
     "ndb": "^1.1.5"
   },
-  "author": "Rentopia",
+  "author": "MikiasHailu",
   "license": "ISC"
 }

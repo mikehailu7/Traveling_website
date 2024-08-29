@@ -1,1 +1,2 @@
-export const IMAGE_SERVER_URL = "http://192.168.1.2:5440/api/v1/image/get";
+export const IMAGE_SERVER_URL = "http://127.0.0.1:5440/api/v1/image/get"
+

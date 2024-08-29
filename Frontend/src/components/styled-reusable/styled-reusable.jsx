@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faSearch, faCartPlus, faNewspaper, faUser } from "@fortawesome/free-solid-svg-icons";
 import "./styled-reusable-styles.scss";
 import { ReactComponent as RightArrow } from "../../assets/arrow-right.svg";
-import placeholderImg from "../../assets/house/house1.jpg";
+import placeholderImg from "../../assets/place/lalibela.jpg"
 import {
   Input,
   Space,

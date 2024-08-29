@@ -15,7 +15,7 @@ import { Container } from "../../components/styled-reusable/styled-reusable";
 import { Avatar, Tabs, PageHeader } from "../../antd-imports";
 import "./profile-styles.scss";
 
-import livingRoom from "../../assets/house/house1.jpg";
+import Home from "../../assets/place/beaches.jpg";
 const { TabPane } = Tabs;
 
 export default function ProfilePage({ socket }) {
@@ -41,7 +41,7 @@ export default function ProfilePage({ socket }) {
           <div
             className='profile-cover'
             style={{
-              backgroundImage: `url(${user.avatar ? user.avatar : livingRoom})`,
+              backgroundImage: `url(${user.avatar ? user.avatar : Home})`,
             }}></div>
           <div className='profile-avatar'>
             <Avatar size={96} icon={<UserOutlined />} />{" "}

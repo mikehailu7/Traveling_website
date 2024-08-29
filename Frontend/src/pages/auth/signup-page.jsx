@@ -12,9 +12,9 @@ import { Row, Col } from "../../antd-imports";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay } from "swiper/core";
 import { Link } from "react-router-dom";
-import imageSlide1 from "../../assets/house/house1.jpg";
-import imageSlide2 from "../../assets/house/house2.jpg";
-import imageSlide3 from "../../assets/house/house3.jpg";
+import imageSlide1 from "../../assets/place/mountain.jpg"
+import imageSlide2 from "../../assets/place/beaches.jpg"
+import imageSlide3 from "../../assets/place/paris2.jpg"
 SwiperCore.use(Autoplay);
 export default class SignupComponent extends Component {
   constructor(props) {
@@ -166,7 +166,7 @@ export default class SignupComponent extends Component {
               />
               <h3 className='display-5'>Create Account</h3>
               <p className='text-muted mb-3'>
-                OLLA provides best of what you need!
+                Alx-Travel provides best of what you need!
               </p>
               {<small className='text-success '>{success}</small>}
               {<small className='text-danger '>{error}</small>}

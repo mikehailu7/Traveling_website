@@ -1,6 +1,7 @@
 const fs = require("fs");
 var path = require("path");
 const House_images = require("../../models/imageModel");
+const House = require("../../models/houseModel");
 const AppError = require("../../utils/appError");
 const catchAsync = require("../../utils/catchAsyncError");
 const { signJwtToken } = require("../../utils/processJWT");
@@ -12,11 +13,10 @@ const {
 
 
 exports.getImage = catchAsync(async (req, res, next) => {
+
   const { imageid } = req.params;
 
-  const image = await House_images.findOne({ imageID: imageid }, { _id: 0, __v: 0 });
-
-  console.log({ image });
+  const image = await House.findOne({ imageCover: imageid }, { _id: 0, __v: 0 });
 
   if (image) {
     const dest = path.join(__dirname, '..', '..', 'uploads');
@@ -30,7 +30,7 @@ exports.getImage = catchAsync(async (req, res, next) => {
 
         files.forEach(file => {
 
-          if (file === image.imageID) {
+          if (file === image.imageCover) {
             found += 1;
             console.log({ file });
           }
@@ -41,7 +41,7 @@ exports.getImage = catchAsync(async (req, res, next) => {
 
         if (found === 1) {
           try {
-            const videoSize = fs.statSync(dest + "\\" + image.imageID).size;
+            const videoSize = fs.statSync(dest + "\\" + image.imageCover).size;
             console.log({ videoSize });
             // const CHUNK_SIZE = 10 ** 6;
 
@@ -50,10 +50,10 @@ exports.getImage = catchAsync(async (req, res, next) => {
             const headers = {
               "Accept-Ranges": "bytes",
               "Content-Length": videoSize,
-              "Content-Type": image.mimetype,
+              "Content-Type": "image/jpg",
             };
             res.writeHead(206, headers);
-            const videoStream = fs.createReadStream(dest + "\\" + image.imageID);
+            const videoStream = fs.createReadStream(dest + "\\" + image.imageCover);
             videoStream.pipe(res);
           } catch (error) {
             console.log({ error });

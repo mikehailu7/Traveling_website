@@ -103,7 +103,7 @@ const SigninComponent = ({ startEmailLogin, authError }) => {
               alt='brand'
             />
             <h3 className='display-5 mt-3'>Sign In</h3>
-            <p className='text-muted mb-4'>Welcome back to OLLA!</p>
+            <p className='text-muted mb-4'>Welcome back to Alx-Travel!</p>
             {<small className='text-danger '>{authError}</small>}
             {<small className='text-danger '>{error}</small>}
             <form
